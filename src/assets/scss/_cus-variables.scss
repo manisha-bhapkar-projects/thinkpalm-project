@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'latoregular';
+    src: url('../fonts/lato-regular-webfont.woff2') format('woff2'),
+         url('../fonts/lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'latomedium';
+    src: url('../fonts/lato-medium-webfont.woff2') format('woff2'),
+         url('../fonts/lato-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'latosemibold';
+    src: url('../fonts/lato-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/lato-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'rufinabold';
+    src: url('../fonts/rufina-bold-webfont.woff2') format('woff2'),
+         url('../fonts/rufina-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'rufinaregular';
+    src: url('../fonts/rufina-regular-webfont.woff2') format('woff2'),
+         url('../fonts/rufina-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'webfontregular';
+    src: url('../fonts/helvetica_neue_lt_55_roman-webfont.woff2') format('woff2'),
+         url('../fonts/helvetica_neue_lt_55_roman-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'webfontmedium';
+    src: url('../fonts/helvetica_neue_lt_65_medium-webfont.woff2') format('woff2'),
+         url('../fonts/helvetica_neue_lt_65_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserratmedium';
+    src: url('../fonts/montserrat-medium-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+$menu_bg_color:  #104378;
+$body_bg_color: #FDFBF7;
+
+$primaryfontcolor:#041321;
+$secondaryfontcolor:#575757;
+$thirdfontcolor:#9A9A9A;
+$iconprimary:#9A9A9A;
+$iconhover:#1B9DEF;
+
+$blue:#1B9DEF;
+$blue-darker:#1189D6;
+$maroon:#CB4900;
+$red:#CB4900;
+$yellow:#F9B132;
+$darker:#433F37;
+$darkeralt:#575757;
+
+$HomeBorderBlue:#104378;
+$HomeBorderGreen:#75B685;
+$HomeBorderRed: #EF6F6C;
+$HomeBorderYellow:#F9B132;
+
+
+
+
+$rufina-700:'rufinabold';
+$rufina-400:'rufinaregular';
+$lato-400:'latoregular';
+$lato-500:'latomedium';
+$lato-600:'latosemibold';
+$helvetica-regular:'webfontregular';
+$helvetica-medium:'webfontmedium';
+$montserrat-400:'montserratregular';
+$montserrat-500:'montserratmedium';

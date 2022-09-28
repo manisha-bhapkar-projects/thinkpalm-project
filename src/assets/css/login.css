@@ -1,0 +1,311 @@
+body,
+html {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	font-family: "poppinsregular";
+	height: 100%;
+}
+
+@font-face {
+	font-family: "poppinslight";
+	src: url("../fonts/poppins-light-webfont.woff2") format("woff2"),
+		url("../fonts/poppins-light-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "poppinsmedium";
+	src: url("../fonts/poppins-medium-webfont.woff2") format("woff2"),
+		url("../fonts/poppins-medium-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "poppinsregular";
+	src: url("../fonts/poppins-regular-webfont.woff2") format("woff2"),
+		url("../fonts/poppins-regular-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "poppinssemibold";
+	src: url("../fonts/poppins-semibold-webfont.woff2") format("woff2"),
+		url("../fonts/poppins-semibold-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.login-wrapper {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.login-box {
+	width: 420px;
+	padding: 15px;
+}
+
+.login-box h3 {
+	color: #001e37;
+	font-family: "poppinsregular";
+	font-size: 22px;
+}
+
+.login-box h2 {
+	color: #001e37;
+	font-family: "poppinsmedium";
+	font-size: 20px;
+	margin: 15px 0px 0px 0px;
+}
+
+.floating {
+	margin-bottom: 2.5rem;
+	position: relative;
+	/*  background-color: var(--field__background);*/
+	transition: background-color 0.2s ease;
+	/*
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+*/
+}
+
+.floating.floating-dropdown {
+	margin-bottom: 0;
+}
+
+.floating:hover,
+.floating:focus-within {
+	/*  background-color: var(--field__background--hover);*/
+}
+
+.floating i {
+	position: absolute;
+	top: 11px;
+	right: 10px;
+	color: #708090;
+	font-size: 18px;
+}
+.profile-btn {
+	color: #1189d6;
+	background-color: transparent;
+	border-color: #1189d6;
+	border-radius: 5px;
+	padding: 8px 20px;
+	font-size: 13px;
+}
+
+.floating__input {
+	padding: 10px 35px 5px 15px;
+	font-size: 16px;
+	transition: border-color 0.2s ease;
+	border-radius: 6px;
+	width: 100%;
+	height: 40px;
+	font-family: "webfontregular";
+	box-sizing: border-box;
+	/* border: 1px solid rgba(154, 154, 154, 0.5); */
+	border: 1px solid rgba(68, 84, 106, 0.4);
+	/* color: rgba(112, 128, 144, 1); */
+	color: #44546a;
+
+	background-color: #fcfcfc;
+
+	/* background-color: #fcfcfc; */
+	/* min-width: 224px !important; */
+}
+
+.floating__input:focus {
+	outline: none;
+}
+
+.floating:hover .floating__input {
+	/*  border-color: var(--input__border--hover);*/
+	font-family: "webfontregular";
+}
+
+.floating__input::placeholder {
+	color: rgba(0, 0, 0, 0);
+}
+
+.floating__label {
+	display: block;
+	position: relative;
+	max-height: 0;
+	font-weight: 500;
+	pointer-events: none;
+	font-family: "webfontregular";
+	color: #708090;
+}
+
+.floating__label::before {
+	/* color: rgba(154, 154, 154, 1); */
+	color: inherit;
+	text-transform: capitalize;
+	font-size: 12px;
+	content: attr(data-content);
+	display: inline-block;
+	filter: blur(0);
+	backface-visibility: hidden;
+	transform-origin: left top;
+	transition: transform 0.2s ease;
+	left: 0.8rem;
+	position: relative;
+	top: 4px;
+}
+
+.floating__label::after {
+	bottom: 1rem;
+	color: inherit;
+	content: "";
+	height: 0.1rem;
+	position: absolute;
+	transition: transform 180ms cubic-bezier(0.4, 0, 0.2, 1),
+		opacity 180ms cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s ease;
+	opacity: 0;
+	left: 0;
+	top: 100%;
+	margin-top: -0.1rem;
+	transform: scale3d(0, 1, 1);
+	width: 100%;
+	/*  background-color: var(--color__accent);*/
+}
+
+.floating__input:focus + .floating__label::after {
+	transform: scale3d(1, 1, 1);
+	opacity: 1;
+}
+
+.floating__input:placeholder-shown + .floating__label::before {
+	transform: translate3d(0, -2.2rem, 0) scale3d(1, 1, 1);
+}
+
+.floating__label::before,
+.floating__input:focus + .floating__label::before {
+	transform: translate3d(0, -3.3rem, 0) scale3d(0.82, 0.82, 1);
+	background-color: #fcfcfc;
+	padding: 0 5px;
+}
+
+.floating__input:focus + .floating__label::before {
+	/* color: rgba(154, 154, 154, 1); */
+	color: #708090;
+	background: #fdfbf7;
+	font-family: "webfontregular";
+	font-size: 12px;
+	text-transform: capitalize;
+	padding: 0px 5px;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+.hidden--visually {
+	border: 0;
+	clip: rect(1px 1px 1px 1px);
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+.button {
+	background: var(--color__accent);
+	border-width: 0;
+	color: #fff;
+	display: block;
+	width: 100%;
+	padding: 1rem 2rem;
+	font-weight: 600;
+	font-size: 1.25rem;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.form {
+	margin: 30px 0px 0px 0px;
+}
+
+.info-wrap {
+	position: absolute;
+	font-size: 12px;
+	color: #708090;
+	right: 0px;
+	bottom: -20px;
+	font-family: "poppinslight";
+}
+
+.btn-login-disable {
+	background: #708090 0% 0% no-repeat padding-box;
+	box-shadow: 0px 3px 6px #00000029;
+	border-radius: 25px;
+	border: inherit;
+	width: 100%;
+	box-sizing: border-box;
+	opacity: 0.3;
+	height: 40px;
+}
+
+.btn-login-active {
+	box-shadow: 0px 3px 6px #00000029;
+	border-radius: 25px;
+	border: inherit;
+	width: 100%;
+	box-sizing: border-box;
+	height: 40px;
+	background: #015eac 0% 0% no-repeat padding-box;
+}
+
+.pw-set {
+	position: absolute;
+	right: 5px;
+	top: 13px;
+	background: #fff;
+	color: #708090;
+	font-size: 11px;
+	padding: 0px 25px 0px 0px;
+}
+
+.pw-set i {
+	position: absolute;
+	top: -2px;
+	font-size: 20px;
+	right: 0px;
+	color: #64b9ce;
+}
+.expando_logo {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.expando_logo img {
+	position: absolute;
+	left: 40px;
+	top: 40px;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	/* IE10+ specific styles go here */
+	/*
+    .floating__input {
+        border-color:#015EAC80;
+        border-width: 1px;
+        border-style: solid;
+    }
+*/
+}

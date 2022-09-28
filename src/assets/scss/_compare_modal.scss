@@ -1,0 +1,163 @@
+.modal_compare {
+    .modal-header {
+        padding: 20px 39px;
+        height: 60px;
+        background: #40659E;
+        .modal-title {
+            
+            h5 {
+                margin: 0px;
+                font-size: 20px;
+                font-family: $montserrat-500;
+            }
+        }
+        .close {
+            padding: 0px;
+            margin: 0px;
+            position: relative;
+            right: -80px;
+            top: -40px;
+            font-family: $helvetica-regular;
+            background: url(../images/feather_x.svg) no-repeat;
+            width: 32px;
+            height: 32px;
+            span {
+                display: none;
+            }
+        }
+    }
+    .modal-body-container {
+        padding: 16px 40px;
+        .form-group {
+            margin-bottom: 24px;
+            label {
+                font-size: 16px;
+                font-family: $helvetica-regular;
+                color: #44546A;
+                margin: 0px 0px 8px 0px;
+                padding: 0px;
+            }
+            .form-control {
+                font-size: 18px;
+                color: #0F1B2B;
+                font-family: $helvetica-regular;
+                background: #FCFCFC;
+                border: 1px solid rgba(68, 84, 106, 0.5);
+                border-radius: 6px;
+                background-image: url(../images/caret-down.png);
+                background-repeat: no-repeat;
+                background-position: 98.5% 50%;
+            }
+            select {
+                appearance: none;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+            }
+        }
+    }
+    .modal-lbl {
+        font-size: 16px;
+        font-family: $helvetica-regular;
+        color: #44546A;
+        margin: 0px 0px 8px 0px;
+        padding: 0px;
+    }
+    .select-lbl {
+        color: rgba(68, 84, 106, 0.5);
+    }
+    .select-country-wrapper {
+        border: 1px solid rgba(68, 84, 106, 0.5);
+        border-radius: 6px;
+        padding-right: 0px;
+    }
+    .container-cb {
+        color: rgba(15, 27, 43, 1);
+        font-size: 16px;
+        font-family: $helvetica-regular;
+        padding-left: 52px;
+        min-height: 32px;
+    display: flex;
+    align-items: center;
+    margin: 15px 0px 15px 0px;
+        &.backColor {
+            background: rgba(64, 101, 158, 0.05);
+        }
+    }
+    .checkmark {
+        background-color: transparent;
+        border:1px solid rgba(15, 27, 43, 0.4);
+        border-radius: 3px;
+        height: 16.8px;
+        width: 16.8px;
+        margin: 4px 0px 0px 19px;
+    }
+    .checkmark:after {
+        left: 6px;
+        top: 2px;
+    }
+    input:checked ~ .checkmark {
+        background-color: #40659E;
+        border: 0px;
+    }
+    .checkbox-container-scroll {
+        height: 225px;
+        overflow-y: auto;
+    }
+    .btn-outline-primary.disabled, .btn-outline-primary:disabled {
+        border: 1.5px solid rgba(68, 84, 106, 0.4);
+        border-radius: 4px;
+        width: 80px;
+        color: rgba(68, 84, 106, 0.4);
+        font-size: 16px;
+        font-family: $helvetica-regular;
+    }
+    .btn-outline-primary {
+        border: 1.5px solid #40659E;
+        border-radius: 4px;
+        width: 80px;
+        color: rgba(64, 101, 158, 1);
+        font-size: 16px;
+        font-family: $helvetica-regular;
+        &:hover {
+            background-color: #fff;
+        }
+    }
+    .selected-country-wrapper li {
+        color: rgba(15, 27, 43, 1);
+        font-size: 18px;
+        font-family: $helvetica-regular;
+       
+        padding: 0px 15px 0px 24px;
+        min-height: 32px;
+        display: flex;
+        align-items: center;
+        margin: 15px 0px 15px 0px;
+        cursor: default;
+        &:hover {
+            background: rgba(64, 101, 158, 0.05);
+            .close {
+                padding-right: 25.5px;
+                display: block;
+                top:6px;
+            }
+        }
+    }
+    .btn-primary.disabled, .btn-primary:disabled {
+        background: rgba(68, 84, 106, 0.4);
+        opacity: 0.4;
+        border: 0px;
+        font-family: $helvetica-medium;
+        font-size: 16px;
+    }
+    .modal-footer {
+        .btn-primary {
+            background: #40659E;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            border-radius: 4px;
+            width: 160px;
+            height: 40px;
+            border: 0px;
+        }
+    }
+    
+}

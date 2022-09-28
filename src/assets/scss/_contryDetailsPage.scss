@@ -1,0 +1,232 @@
+.tab-container {
+  margin: 80px 15px 56px;
+
+  ul {
+    margin: 0px 0px 56px;
+    padding: 0px;
+    border: 1px solid rgba(68, 84, 106, 0.2);
+    border-radius: 4px;
+    height: 40px;
+  }
+
+  li {
+    list-style: none;
+    float: left;
+    width: 25%;
+    height: 40px;
+
+    &:hover {
+      background: rgba(180, 197, 228, 0.5);
+      height: 38px;
+    }
+
+    a {
+      color: rgba(16, 67, 120, 1);
+      font-size: 12px;
+      font-family: $montserrat-500;
+      text-transform: uppercase;
+      background: transparent;
+      width: 100%;
+      height: 38px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    .active {
+      background: rgba(180, 197, 228, 0.5);
+    }
+  }
+
+  .tab-section {
+    h3 {
+      margin-bottom: 28px;
+      color: #104378;
+      font-size: 20px;
+      font-family: $montserrat-500;
+      text-transform: uppercase;
+    }
+  }
+
+  .round-136,
+  %round-136 {
+    width: 136px;
+    height: 136px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+    span {
+      font-family: $helvetica-medium;
+      font-size: 14px;
+      color: #fff;
+      text-transform: uppercase;
+      margin-top: 9.29px;
+      text-align: center;
+    }
+  }
+
+  .nxt-arrow {
+    position: absolute;
+    // left: 174.5px;
+    top: 50px;
+    left: calc(50% + 69px);
+  }
+
+  .tab-2-contents {
+    margin: 37px 0px 0px 0px;
+
+    ul {
+      border: 0px;
+      margin: 0px;
+      padding: 0px;
+      height: auto;
+    }
+
+    li {
+      width: 100%;
+      height: auto;
+      list-style-type: circle;
+      list-style: disc;
+      font-size: 14px;
+      font-family: $helvetica-regular;
+      color: rgba(15, 27, 43, 1);
+      margin: 0px 0px 16px 0px;
+      text-decoration: underline;
+      color: #40659e;
+      cursor: pointer;
+
+      &:hover {
+        background-color: transparent;
+      }
+    }
+
+    .color-blue {
+      color: rgba(64, 101, 158, 1);
+    }
+
+    .download-btn {
+      display: block;
+      text-transform: capitalize;
+      margin: 8px 0px 0px 0px;
+
+      img {
+        margin-left: 5.43px;
+      }
+    }
+  }
+
+  .green {
+    background-color: #75b685;
+  }
+
+  .aquagreen {
+    background-color: #61c6c0;
+  }
+
+  .blue {
+    background-color: #6db5e1;
+  }
+
+  .orange {
+    background-color: #ff9d5c;
+  }
+}
+
+.tab-2-container {
+  border: 1px solid #ededed;
+  border-radius: 6px;
+  padding: 44px 51px;
+}
+
+.country-value-unavailable {
+  font-size: 14px;
+  font-family: $helvetica-regular;
+  font-style: italic;
+}
+
+.btn-primary-outline {
+  background: #fcfcfc;
+  border: 1px solid #40659e;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 160px;
+  height: 40px;
+  margin-top: 64px;
+}
+
+.country-content-mt {
+  .country-card {
+    .details-wrap {
+      span {
+        &:first-child {
+          font-size: 10px;
+          color: rgba(68, 84, 106, 1);
+          font-family: $helvetica-regular;
+          text-transform: uppercase;
+
+          .date-ctrl {
+            color: #0F1B2B;
+            font-size: 10px;
+            font-family: $helvetica-regular;
+          }
+        }
+
+        &:last-child {
+          color: rgba(15, 27, 43, 1);
+          font-family: $helvetica-regular;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+.flag-image-container {
+  .No-image {
+    height: 36px;
+    width: 30px;
+  }
+}
+
+.skip-btn {
+  background: #40659e !important;
+  border: transparent !important;
+  box-shadow: none !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px;
+
+  &:disabled {
+    background: #44546a61 !important;
+    cursor: not-allowed;
+
+  }
+
+  i {
+    position: static !important;
+    margin-left: 10px;
+  }
+}
+
+.country-wrapper.custom-scroll {
+  .country-list {
+    .navigation {
+      .company-favourite {
+        width: 220px;
+        font-size: 14px;
+        color: #75B685;
+        font-family: $helvetica-regular;
+        text-align: right;
+      }
+    }
+  }
+}

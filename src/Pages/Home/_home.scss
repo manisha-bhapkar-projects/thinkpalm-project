@@ -1,0 +1,206 @@
+@import "../../assets/scss/cus-variables";
+.country-card {
+    min-height: 240px;
+
+    .ellipsis {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .nodata {
+        margin: 49px 0;
+        &.nodata-big {
+            margin: 59px 0;
+        }
+    }
+    .alert-container {
+        min-height: 112px;
+        margin: 0px 22px 0px 21px;
+        position: relative;
+    }
+    .blog-container {
+        min-height: 112px;
+        padding: 0px 0px 0px 21px;
+    }
+}
+
+.profile-wrap {
+    .dropdown {
+        height: 100%;
+        cursor: pointer;
+    }
+    .floating {
+        height: 100%;
+    }
+}
+
+.layout_ctrl {
+    a {
+        &:first-child {
+            margin-right: 30px;
+        }
+    }
+}
+
+.slick-dots {
+    li {
+        button {
+            &::before {
+                background-color: rgba(112, 128, 144, 1) !important;
+            }
+            &:hover {
+                background-color: transparent !important;
+            }
+        }
+    }
+}
+
+.tab-wrapper {
+    ul {
+        li {
+            a {
+                font-family: $helvetica-medium !important;
+                line-height: 17px;
+                // font-weight: 500 !important;
+            }
+        }
+    }
+}
+
+.override-para-style {
+    p {
+        font-family: $lato-500;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+.tab-content-container {
+    .section-1 {
+        width: 100%;
+        padding: 0px 393px 0px 0px;
+        position: relative;
+        min-height: 320px;
+        #chartdiv {
+            width: 100% !important;
+        }
+        .section-info {
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            width: 357px;
+            height: 100%;
+            .global-trends{
+                margin-bottom: 20px;
+                font-size: 16px;
+                color: #44546A;
+            }
+            .info_container {
+                width: 100%;
+                border: 1px solid #DCE1E3;
+                border-radius: 6px;
+                min-height: 115px;
+                padding: 16px 32px;
+                background-color: #fff;
+                position: relative;
+                margin: 0px 0px 24px 0px;
+                h6 {
+                    margin: 0px 0px 20px 0px;
+                    padding: 0px;
+                    color: rgba(112, 128, 144, 1);
+                    font-size: 14px;
+                    font-family: $helvetica-regular;
+                }
+                h2 {
+                    color: rgba(16, 67, 120, 1);
+                    margin: 0px 0px 0px 0px;
+                    padding: 0px;
+                    font-size: 32px;
+                    font-family: $helvetica-regular;
+                    sub {
+                        font-size: 12px;
+                        position: relative;
+                        top:-2px;
+                    }
+                }
+                span {
+                    color: rgba(68, 84, 106, 1);
+                    font-size: 14px;
+                }
+                .trending {
+                    position: absolute;
+                    color: rgba(15, 27, 43, 1);
+                    font-family: $helvetica-regular;
+                    font-size: 14px;
+                    right: 32px;
+                    bottom: 24px;
+                    span {
+                        font-family: $helvetica-regular;
+                        font-size: 14px;
+                        color: rgba(15, 27, 43, 1);
+                        position: relative;
+                        top: 5px;
+                        padding: 0px 0px 0px 7.5px;
+                    }
+                }
+            }
+            .orang-text {
+                color:rgba(255, 157, 92, 1)  !important ;
+            }
+        }
+    }
+}
+.no-card-msg {
+    background: rgba(64, 101, 158, 0.1);
+    border: 1px solid rgba(112, 128, 144, 0.5);
+    border-radius: 6px;
+    height: 85px;
+    line-height: 85px;
+    width: 100%;
+    padding: 0px 40px;
+    margin: 0px 0px 80px 0px;
+    font-size: 18px;
+    color: #0F1B2B;
+    font-family: $helvetica-regular;
+    display: flex;
+    align-items: baseline;
+    span {
+        a {
+            font-family: $helvetica-medium;
+            color: rgba(16, 67, 120, 1);
+        }
+    }
+    .text-info {
+        color: #40659e !important;
+        font-size: 18px;
+        margin:0px 6px;
+        font-family: $helvetica-medium;
+    }
+    .btn-primary {
+        background: #40659E;
+        border-radius: 4px;
+        min-width: 160px;
+        border:0px;
+        height:40px;
+    }
+}
+// .card-status-container {
+//     padding-left: 22.5px;
+//     padding-right: 22.5px;
+// }
+.grid-full-row {
+    grid-column: 1/-1;
+    padding: 0px;
+}
+.ask-a-question{
+    color: #40659E;
+    text-decoration: underline;
+    font-size: 14px;
+
+}
+.ask-a-question-disabled{
+    color: #c5c5c5;
+    text-decoration: underline;
+    font-size: 14px;
+}

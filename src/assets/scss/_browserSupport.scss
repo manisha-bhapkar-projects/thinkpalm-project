@@ -1,0 +1,34 @@
+/**********************forfirfox***************************/
+
+@-moz-document url-prefix() { 
+    .ip_header_wrap {
+        .ip_banner_gradient {
+            background: rgb(16, 67, 120);
+	    background: -moz-linear-gradient(
+		269deg,
+		rgba(16, 67, 120, 0.5) 0%,
+		rgba(16, 67, 120, 0.85) 100%
+	);
+	background: -webkit-linear-gradient(
+		269deg,
+		rgba(16, 67, 120, 0.5) 0%,
+		rgba(55, 66, 78, 0.85) 100%
+	);
+	background: linear-gradient(
+		269deg,
+		rgba(16, 67, 120, 0.5) 0%,
+		rgba(16, 67, 120, 0.85) 100%
+	);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#104378",endColorstr="#104378",GradientType=1);
+        }
+    }
+    .updated-info, 
+    .title-action-wrap .actions
+     {
+        background: rgba(255, 255, 255, 0.2);
+    }
+    .ip_header_wrap .backdrop-filter {
+        background: rgba(255, 255, 255, 0.2);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+  }

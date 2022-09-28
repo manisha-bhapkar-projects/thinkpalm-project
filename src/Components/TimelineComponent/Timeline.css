@@ -1,0 +1,66 @@
+.Separator-custom {
+    padding-top: 10px;
+  }
+  .Custom-timeline {
+    color: #FFFFFF;
+    position: absolute;
+    font-size: 12px;
+    padding: 0px !important;
+  }
+  .Custom-lineItem {
+    justify-content: center;
+  }
+  .Custom-lineItem::before {
+    position: absolute;
+  }
+  .Custom_Dot{
+    background-color: #ffffff !important;
+  }
+  .Custom_Connector{
+    background-color: #ffffff !important;
+  }
+  .custom-Timeline_main{
+    padding: 0px !important;
+    margin-top: 100px;
+    /* width: 110px !important; */
+    text-align: center;
+  }
+
+/* .active .Custom-timeline{
+  color: #0fff;
+} */
+
+.timeline-active .Custom_Dot{
+background-color:#1B9DEF !important;
+width: 16px;
+  height: 16px;
+  border-color: #1B9DEF !important;
+  border-width: 2px;
+  border-style: solid;
+}
+
+
+.dotted-style-active, 
+.dotted-style-next {
+  color: #fafafa;
+  background-color: #FFFFFF !important;
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+  border-color: #1189D6 !important;
+  border-width: 2px;
+  border-style: solid;
+}
+.dotted-style-next {
+  border-color: #708090 !important;
+}
+.MuiTimelineItem-root {
+  min-height: 85px !important;
+}
+.MuiTimelineConnector-root {
+  margin-bottom: 5px !important;
+}
+
+.hide-line .MuiTimelineConnector-root {
+  display: none;
+}

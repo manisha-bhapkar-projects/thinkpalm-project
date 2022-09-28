@@ -1,0 +1,48 @@
+.dropDown-container {
+  width: 300px;
+  background: #ffffff;
+  box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding: 31.43px 42.34px;
+  border-top: 0px;
+  .dropDown-child {
+    &:hover {
+      background: transparent;
+    }
+    padding: 0px 0px 0px 44px;
+    &:nth-child(1),
+    %dropdownChild {
+      background-image: url(../images/ph_user-light.svg);
+      background-repeat: no-repeat;
+      color: rgba(15, 27, 43, 1);
+      font-family: $helvetica-regular;
+      font-size: 16px;
+      height: 28px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 20.94px;
+    }
+    &:nth-child(2) {
+      @extend %dropdownChild;
+      background-image: url(../images/MyDoc.svg);
+      padding-bottom: 20.94px;
+      background-repeat: no-repeat;
+      border-bottom: 1px solid rgba(112, 128, 144, 0.3);
+    }
+    &:nth-child(3) {
+      @extend %dropdownChild;
+      padding-top: 20.94px;
+      background-image: url(../images/carbon_logout.svg);
+      padding-bottom: 20.94px;
+      background-repeat: no-repeat;
+      background-position: 0px center;
+      //   border-bottom: 1px solid rgba(112, 128, 144, 0.3);
+    }
+    &:nth-child(4) {
+      @extend %dropdownChild;
+      background-image: url(../images/carbon_logout.svg);
+      margin-top: 22.94px;
+      background-repeat: no-repeat;
+    }
+  }
+}

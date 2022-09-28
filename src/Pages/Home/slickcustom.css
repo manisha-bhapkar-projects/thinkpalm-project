@@ -1,0 +1,40 @@
+.slick-dots li button:before{
+    content: '' !important;
+    background-color: rgba(112, 128, 144, 0.3);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.slick-dots li.slick-active button:before{
+    background-color: slategray;
+}
+
+.slick-arrow{
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background: #fff;
+    z-index: 1111;
+    box-shadow: 1px 2px 3px #ccc;
+}
+
+.slick-arrow:hover{
+    background: #fff;
+}
+.slick-prev {
+    left: -41px;
+}
+
+.slick-prev:before{
+    content: '‹';
+    color: #000;
+    font-size: 30px;
+    line-height: 0;
+}
+
+.slick-next:before{
+    content: '›';
+    color: #000;
+    font-size: 30px;
+    line-height: 0;
+}

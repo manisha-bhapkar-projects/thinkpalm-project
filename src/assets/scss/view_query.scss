@@ -1,0 +1,175 @@
+.view_query_container {
+  .ask-body-container {
+    height: auto;
+  }
+  width: 855px;
+  padding: 0px 0px 0px 50px;
+  .query_serial {
+    color: rgba(68, 84, 106, 1);
+    font-size: 18px;
+  }
+  .view_query_header {
+    background-color: #40659e;
+    padding: 0px 22px;
+    height: 60px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-top: 40px;
+    -webkit-border-top-left-radius: 6px;
+    -webkit-border-top-right-radius: 6px;
+    -moz-border-radius-topleft: 6px;
+    -moz-border-radius-topright: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    h3 {
+      color: #fff;
+      font-size: 20px;
+      font-family: $montserrat-500;
+    }
+  }
+  .expert-form {
+    .view_forn_field {
+      background: #ffffff;
+      border: 1px solid rgba(68, 84, 106, 0.5);
+      box-sizing: border-box;
+      border-radius: 6px;
+    }
+    .agreement_status_container {
+      display: grid;
+      grid-template-columns: 86px 403px;
+      grid-column-gap: 17px;
+      align-items: center;
+      div {
+        border: 1px solid rgba(68, 84, 106, 0.5);
+        box-sizing: border-box;
+        border-radius: 6px!important;
+        height: 40px;
+        color: rgba(15, 27, 43, 1);
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 32px;
+        &:last-child {
+          border-radius: 2px;
+          justify-content: flex-start;
+          color: rgba(64, 101, 158, 1);
+          font-size: 14px;
+          font-family: $helvetica-medium;
+        }
+      }
+      span {
+        border: 1px solid rgba(68, 84, 106, 0.5);
+        box-sizing: border-box;
+        border-radius: 6px;
+        height: 40px;
+        color: rgba(15, 27, 43, 1);
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 32px;
+      }
+    }
+    .table-header {
+      margin-top: 60px;
+    }
+    .yes-view {
+      div {
+        border-radius: 6px !important;
+        color: rgba(15, 27, 43, 1) !important;
+      }
+    }
+    .agree-container {
+      margin-top: 40px;
+      .tab-checkbox {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+.view_query_common {
+  .main_header {
+    h3 {
+      color: rgba(15, 27, 43, 1);
+      font-size: 20px;
+      font-family: $helvetica-medium;
+      padding: 0px 0px 0px 75px;
+    }
+  }
+  .holder_container {
+    background: #ffffff;
+    box-shadow: -1px 1px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    padding: 48px 75px;
+    margin-bottom: 16px;
+    .submit-form {
+      display: flex;
+      align-items: baseline;
+      h3 {
+        color: rgba(15, 27, 43, 1);
+        font-size: 16px;
+        font-family: $helvetica-medium;
+      }
+      select {
+        background: #fcfcfc;
+        border: 1px solid rgba(68, 84, 106, 0.5);
+        border-radius: 2px;
+        width: 280px;
+        height: 40px;
+        margin: 0px 28px 0px 25px;
+      }
+      .primary-button {
+        width: 280px;
+        height: 40px;
+      }
+    }
+    .schedule_meeting {
+      h3 {
+        color: rgba(15, 27, 43, 1);
+        font-size: 18px;
+        font-family: $helvetica-medium;
+      }
+      .btn-schedule {
+        width: 240px;
+        background: rgba(64, 101, 158, 0.15);
+        border: 1px solid #40659e;
+        border-radius: 4px;
+        color: rgba(64, 101, 158, 1);
+        height: 48px;
+        font-size: 16px;
+        font-family: $helvetica-medium;
+        margin-top: 69px;
+        margin-bottom: 64px;
+      }
+      .text-area {
+        border: 1px solid rgba(68, 84, 106, 0.5);
+        border-radius: 6px;
+        height: 123px;
+        resize: none;
+        margin: 32px 0px 56px 0px;
+      }
+      .btn-container {
+        display: flex;
+        .primary-button {
+          height: 48px;
+        }
+        .secondary-gray-button {
+          height: 48px;
+        }
+      }
+    }
+  }
+}
+
+.view-query-drop {
+  position: relative;
+  &-icon {
+    position: absolute;
+    right: 1%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

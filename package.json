@@ -1,0 +1,111 @@
+{
+  "name": "expandopedia-user-story",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "/login",
+  "dependencies": {
+    "@amcharts/amcharts4": "^4.10.20",
+    "@amcharts/amcharts4-fonts": "^4.0.1",
+    "@amcharts/amcharts4-geodata": "^4.1.21",
+    "@angular/material": "^12.2.8",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "*",
+    "@react-keycloak/web": "^3.4.0",
+    "@reduxjs/toolkit": "^1.6.0",
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.6",
+    "@testing-library/user-event": "^12.8.3",
+    "@wojtekmaj/date-utils": "^1.0.3",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.2",
+    "axios": "^0.21.1",
+    "babel-jest": "^26.6.0",
+    "chokidar": "^3.5.2",
+    "file-saver": "^2.0.5",
+    "get-user-locale": "^1.4.0",
+    "http-proxy-middleware": "^0.19.1",
+    "jest": "^26.6.0",
+    "jest-canvas-mock": "^2.3.1",
+    "jest-environment-jsdom": "^27.2.5",
+    "jest-html-reporter": "^3.4.1",
+    "jwt-decode": "^3.1.2",
+    "keycloak-js": "^14.0.0",
+    "merge-class-names": "^1.4.0",
+    "mixpanel-browser": "^2.41.0",
+    "moment": "^2.29.1",
+    "node-sass": "^5.0.0",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.5.2",
+    "react-content-loader": "^6.0.3",
+    "react-data-table-component": "^6.11.7",
+    "react-dom": "^17.0.2",
+    "react-drop-to-upload": "^1.0.2",
+    "react-dropzone": "^11.3.2",
+    "react-loader-spinner": "^4.0.0",
+    "react-notifications": "^1.7.2",
+    "react-player": "^2.9.0",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "react-select": "^4.3.1",
+    "react-show-more-text": "^1.4.6",
+    "react-slick": "^0.28.1",
+    "react-youtube": "^7.13.1",
+    "reactour": "^1.18.6",
+    "redux-axios-middleware": "^0.4.1",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-logger": "^3.0.6",
+    "redux-mock-store": "^1.5.4",
+    "redux-persist": "^6.0.0",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.0",
+    "ts-jest": "^27.0.5",
+    "web-vitals": "^1.1.1",
+    "xlsx": "^0.17.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "dev": "REACT_APP_ENV=development react-scripts build",
+    "stage": "REACT_APP_ENV=staging react-scripts build",
+    "build": "REACT_APP_ENV=production react-scripts build",
+    "test": "react-scripts test --coverage",
+    "citest": "CI=true react-scripts test --coverage",
+    "test:windows": "REACT_APP_ENV=testing react-scripts test",
+    "eject": "react-scripts eject",
+    "jest": "jest",
+    "sass:build": "node-sass -w src/assets/scss/custome.scss -o src/assets/css",
+    "sass:build2": "node-sass -w src/Scss_Homepages/scss/custome.scss -o src/Scss_Homepages/css"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.15.4",
+    "check-prop-types": "^1.1.2",
+    "enzyme": "^3.11.0",
+    "primeicons": "^4.1.0",
+    "primereact": "^6.4.1",
+    "react-picky": "^5.3.2",
+    "redux-thunk": "^2.3.0"
+  },
+  "jest": {
+    "transformIgnorePatterns": [
+      "node_modules[/\\\\](?!(slick-carousel[/\\\\]slick|@amcharts[/\\\\]amcharts4|react-picky[/\\\\]dist))"
+    ]
+  }
+}

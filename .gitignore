@@ -1,0 +1,7 @@
+node_modules/
+.vscode
+.eslintcache
+code-coverage/
+coverage/
+LoginScreen/src/Config/index.js
+

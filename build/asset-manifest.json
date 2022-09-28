@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/login/static/css/main.2f26cd2c.chunk.css",
+    "main.js": "/login/static/js/main.7313eefd.chunk.js",
+    "main.js.map": "/login/static/js/main.7313eefd.chunk.js.map",
+    "runtime-main.js": "/login/static/js/runtime-main.604fc529.js",
+    "runtime-main.js.map": "/login/static/js/runtime-main.604fc529.js.map",
+    "static/css/2.e1c533c5.chunk.css": "/login/static/css/2.e1c533c5.chunk.css",
+    "static/js/2.5ae54143.chunk.js": "/login/static/js/2.5ae54143.chunk.js",
+    "static/js/2.5ae54143.chunk.js.map": "/login/static/js/2.5ae54143.chunk.js.map",
+    "static/js/3.0dd6e5e1.chunk.js": "/login/static/js/3.0dd6e5e1.chunk.js",
+    "static/js/3.0dd6e5e1.chunk.js.map": "/login/static/js/3.0dd6e5e1.chunk.js.map",
+    "index.html": "/login/index.html",
+    "static/css/2.e1c533c5.chunk.css.map": "/login/static/css/2.e1c533c5.chunk.css.map",
+    "static/css/main.2f26cd2c.chunk.css.map": "/login/static/css/main.2f26cd2c.chunk.css.map",
+    "static/js/2.5ae54143.chunk.js.LICENSE.txt": "/login/static/js/2.5ae54143.chunk.js.LICENSE.txt",
+    "static/media/Flag-India.12c3f1bc.jpg": "/login/static/media/Flag-India.12c3f1bc.jpg",
+    "static/media/Heatmap.23c1f497.svg": "/login/static/media/Heatmap.23c1f497.svg",
+    "static/media/Hero-Image-askan.cdb8ab57.jpg": "/login/static/media/Hero-Image-askan.cdb8ab57.jpg",
+    "static/media/camera.4f589afb.png": "/login/static/media/camera.4f589afb.png",
+    "static/media/dp.042a3c93.jpeg": "/login/static/media/dp.042a3c93.jpeg",
+    "static/media/expando-logo.30ad5d32.svg": "/login/static/media/expando-logo.30ad5d32.svg",
+    "static/media/help-circle.74663cf3.svg": "/login/static/media/help-circle.74663cf3.svg",
+    "static/media/custome.css": "/login/static/media/rufina-regular-webfont.fe7e8a96.woff2",
+    "static/media/map-pin-active.b9c021f5.svg": "/login/static/media/map-pin-active.b9c021f5.svg",
+    "static/media/map-pin.aad7f748.svg": "/login/static/media/map-pin.aad7f748.svg",
+    "static/media/notifications.css": "/login/static/media/notification.c5d9251e.ttf",
+    "static/media/login.css": "/login/static/media/poppins-semibold-webfont.bc1912bf.woff2",
+    "static/media/slick-theme.css": "/login/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.604fc529.js",
+    "static/css/2.e1c533c5.chunk.css",
+    "static/js/2.5ae54143.chunk.js",
+    "static/css/main.2f26cd2c.chunk.css",
+    "static/js/main.7313eefd.chunk.js"
+  ]
+}

@@ -1,0 +1,75 @@
+.userProfile-page {
+  .role-assigned {
+    .question-mark {
+      cursor: pointer;
+    }
+  }
+
+  .footer-section {
+    .link-section {
+      margin-bottom: 10px;
+
+      input {
+        margin-right: 15px;
+        cursor: pointer;
+      }
+
+      span {
+        color: #44546A;
+      }
+
+      .terms-link {
+        color: #40659e !important;
+        cursor: pointer;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .action-wrap .btn-primary {
+      padding: 10px 8px;
+      float: right;
+
+      &:disabled {
+        background: #44546a61 !important;
+        cursor: not-allowed;
+      }
+    }
+  }
+}
+
+.country-wrapper {
+  .flag.no-flag {
+    width: 38px;
+    height: 20px;
+    left: -4px;
+    top: 38% !important;
+  }
+
+  .flag.no-flag-country {
+    top: 8px !important;
+    width: 38px;
+    height: 20px;
+    left: -4px;
+  }
+
+  .employee-info-btn {
+    padding: 12px 20px;
+    background: rgba(64, 101, 158, 0.15);
+    border-radius: 4px;
+    color: #40659E;
+    font-family: $helvetica-regular;
+    cursor: pointer;
+  }
+
+  .employee-view-btn {
+    padding: 12px 20px;
+    background: transparent;
+    border-radius: 4px;
+    color: #40659E;
+    font-family: $helvetica-regular;
+    cursor: pointer;
+  }
+}

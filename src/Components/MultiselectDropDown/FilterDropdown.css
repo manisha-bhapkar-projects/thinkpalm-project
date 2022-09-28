@@ -1,0 +1,65 @@
+.filter-dropdown{
+    width: 320px;
+    height: 660px;
+    position: absolute;
+    right: 0;
+    /* padding: 24px 26px; */
+    border: 1px solid rgba(112, 128, 144, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    
+}
+.filter-dropdown h4{
+    font-size: 16px;
+    color: rgba(15, 27, 43, 1);
+}
+
+.filter-dropdown .accordion .card .card-header{
+    background-color: transparent;
+    padding: 10px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    background: rgba(16, 67, 120, 0.05);
+    color: rgba(15, 27, 43, 1);
+    border-bottom: 0;
+}
+.filter-dropdown .accordion .card{
+    border: none;
+}
+
+.filter-dropdown .accordion .card .card-body{
+    padding: 0;
+    font-size: 14px;
+    color: #0F1B2B;
+}
+
+.filter-dropdown ul{
+    list-style: none;
+    padding-left: 0;
+    margin: 20.6px 27.06px;
+}
+.filter-dropdown ul li{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+.filter-dropdown ul li input[type="checkbox"] {
+    margin-right: 24px;
+}
+
+.filter-dropdown .suboption{
+    padding: 0;
+    font-size: 14px;
+    color: #708090;
+}
+.btn-filter{
+    padding: 9px;
+    height: 40px;
+    background: rgba(64, 101, 158, 0.15);
+border: 1px solid rgba(64, 101, 158, 0.15);
+border-radius: 4px;
+}
+.btn-filter:focus{
+    outline: none;
+    box-shadow: none !important;
+}

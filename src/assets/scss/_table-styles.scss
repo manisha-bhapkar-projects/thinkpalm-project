@@ -1,0 +1,150 @@
+.user-data-table {
+	font-size: 16px;
+	font-family: "webfontregular";
+
+	.rdt_TableHeadRow {
+		background-color: rgba(16, 67, 120, 0.8);
+		height: 48px;
+		color: #fff;
+		font-family: "webfontmedium";
+		border-radius: 6px;
+		margin-bottom: 6px;
+
+		.rdt_TableCol {
+			color: #fff;
+			font-size: inherit;
+
+			.rdt_TableCol_Sortable {
+				color: #fff !important;
+				&:hover {
+					color: #fff;
+				}
+
+				span {
+					margin-left: 10px;
+				}
+			}
+		}
+	}
+
+	.rdt_TableHeadRow,
+	.rdt_TableRow {
+		padding-left: 25px;
+	}
+
+	.rdt_TableHeadRow .rdt_TableCol:last-child,
+	.rdt_TableRow .rdt_TableCell:last-child {
+		// margin-right: 50px;
+		max-width: 150px;
+	}
+
+	.rdt_TableRow {
+		font-size: inherit;
+		min-height: 72px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+
+		.rdt_TableCell {
+			&:first-child {
+				border-left: transparent;
+			}
+
+			&:last-child {
+				border-right: transparent;
+			}
+		}
+
+		&:hover {
+			outline: 0;
+		}
+	}
+	.green_color {
+		color: #34be9e;
+	}
+
+	.rdt_TableBody {
+		border: 1px solid rgba(68, 84, 106, 0.3);
+	}
+}
+
+.card-list-table {
+  .rdt_TableHeadRow .rdt_TableCol:last-child,
+  .rdt_TableRow .rdt_TableCell:last-child {
+    justify-content: flex-end !important;
+    padding-right: 30px;
+  }
+}
+
+// ----------------------
+
+.quick-action-btn {
+  background: #fdfbf7;
+  // box-shadow: 0px 4px 8px rgba(0 0 0, 0.25);
+  border-radius: 4px;
+  position: absolute;
+  top: 44px;
+  right: 12px;
+  display: flex;
+  padding: 10px 12px;
+  z-index: 1;
+  width: auto;
+}
+.quick-action-btn a {
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 5px;
+}
+.quick-action-btn a::after {
+  border-right: 1px solid rgba(154, 154, 154, 0.3);
+  content: "";
+  height: 20px;
+  text-align: center;
+  position: relative;
+  left: 7px;
+}
+.quick-action-btn a:last-child::after {
+  content: inherit !important;
+}
+
+.quick-action-btn div {
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 5px;
+  cursor: pointer;
+}
+.quick-action-btn div::after {
+  border-right: 1px solid rgba(154, 154, 154, 0.3);
+  content: "";
+  height: 20px;
+  text-align: center;
+  position: relative;
+  left: 7px;
+}
+.quick-action-btn div:last-child::after {
+  content: inherit !important;
+}
+
+.btn-round {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.btn-round:hover,
+.btn-round:focus {
+  background: rgba(154, 154, 154, 0.2);
+}

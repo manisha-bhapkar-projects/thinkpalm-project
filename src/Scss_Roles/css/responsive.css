@@ -1,0 +1,108 @@
+@media (max-width: 1199.98px) {
+  /* line 2, F:/Projects/Expandopedia/country-html/scss/responsive.scss */
+  .pagination-wrap .main-pagination {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  /* line 7, F:/Projects/Expandopedia/country-html/scss/responsive.scss */
+  .Expert-team-wrapper {
+    top: 0px;
+    height: auto;
+  }
+  /* line 11, F:/Projects/Expandopedia/country-html/scss/responsive.scss */
+  .gap-tp-20 {
+    margin-top: 20px;
+  }
+  /* line 14, F:/Projects/Expandopedia/country-html/scss/responsive.scss */
+  .scrollspy-para {
+    padding: 20px;
+  }
+  /* line 17, F:/Projects/Expandopedia/country-html/scss/responsive.scss */
+  .responsive-data {
+    overflow-x: auto;
+    width: 100%;
+  }
+  /* line 21, F:/Projects/Expandopedia/country-html/scss/responsive.scss */
+  .search-result-wrapper .search-results {
+    padding-left: 0px;
+  }
+  /* line 25, F:/Projects/Expandopedia/country-html/scss/responsive.scss */
+  .tbl-search {
+    width: 100%;
+  }
+  /* line 29, F:/Projects/Expandopedia/country-html/scss/responsive.scss */
+  .tbl-search input {
+    width: 88%;
+  }
+  /* line 32, F:/Projects/Expandopedia/country-html/scss/responsive.scss */
+  .title-action-wrap .btn-primary {
+    min-width: inherit;
+  }
+  /* line 35, F:/Projects/Expandopedia/country-html/scss/responsive.scss */
+  .title-action-wrap a {
+    margin: 0px;
+  }
+  /* line 38, F:/Projects/Expandopedia/country-html/scss/responsive.scss */
+  .pagination-wrap .count-select span {
+    display: none;
+  }
+}
+
+@media (max-width: 767.98px) {
+  /* line 44, F:/Projects/Expandopedia/country-html/scss/responsive.scss */
+  .tab-section .tab-section-content .feature-info {
+    padding: 0px 0px 0px 0px;
+  }
+  /* line 47, F:/Projects/Expandopedia/country-html/scss/responsive.scss */
+  .tab-section .tab-section-content .feature-info span {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    display: flex;
+  }
+  /* line 54, F:/Projects/Expandopedia/country-html/scss/responsive.scss */
+  .tbl-search input {
+    width: 80%;
+  }
+  /* line 57, F:/Projects/Expandopedia/country-html/scss/responsive.scss */
+  .pagination-wrap .count-select {
+    margin-bottom: 15px;
+  }
+  /* line 60, F:/Projects/Expandopedia/country-html/scss/responsive.scss */
+  .pagination-wrap .count-select select {
+    width: 100%;
+  }
+  /* line 63, F:/Projects/Expandopedia/country-html/scss/responsive.scss */
+  .vertical-tab-group .tab-content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  /* line 68, F:/Projects/Expandopedia/country-html/scss/responsive.scss */
+  .title-action-wrap a {
+    margin-left: 0px;
+    margin-right: 15px;
+  }
+  /* line 72, F:/Projects/Expandopedia/country-html/scss/responsive.scss */
+  .updated-info {
+    margin-top: 0px;
+  }
+  /* line 75, F:/Projects/Expandopedia/country-html/scss/responsive.scss */
+  .tab-section .tab-section-content {
+    padding: 40px 40px;
+  }
+  /* line 78, F:/Projects/Expandopedia/country-html/scss/responsive.scss */
+  .layout_ctrl {
+    position: relative;
+  }
+  /* line 81, F:/Projects/Expandopedia/country-html/scss/responsive.scss */
+  .tbl-search {
+    margin-bottom: 20px;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */

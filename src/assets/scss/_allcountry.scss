@@ -1,0 +1,175 @@
+.all-country-wrapper {
+    h1, h2,h3, h4, h5, h6 {
+        margin: 0px;
+        padding: 0px;
+    }
+    position: relative;
+    .header_wrapper {
+        padding-right: 300px;
+
+        .document-text-outline {
+            margin-right: 42px;
+        }
+    }
+    .primary-button {
+        position: relative;
+        right: 100px;
+        top: -5px
+    }
+    .tag-header {
+        h5 {
+            font-size: 18px;
+            color: rgba(15, 27, 43, 1);
+            font-family: $helvetica-regular;
+        }
+    }
+    .tags {
+        height: 85px;
+    /* overflow-x: scroll; */
+    overflow-y: scroll;
+    /* white-space: nowrap; */
+    padding: 10px 0px;
+
+        a, span  {
+            font-size: 14px;
+            font-family: $helvetica-regular;
+            display: inline-flex;
+            align-items: center;
+            line-height: normal;
+            height: 32px;
+            color: rgba(112, 128, 144, 1);
+            cursor: pointer;
+            
+            &:hover {
+                background: rgba(64, 101, 158, 0.05);
+                border: 1px solid #40659E;
+                color: rgba(64, 101, 158, 1);
+            }
+        }
+        .active {
+            background: rgba(64, 101, 158, 0.05);
+            border: 1px solid #40659E;
+            box-sizing: border-box;
+            border-radius: 5px;
+            color: rgba(64, 101, 158, 1);
+        }
+    }
+    .tags {
+        margin: 10px 0px 35px 0px;
+        a, span {
+            border: 1px solid rgba(112, 128, 144, 0.5);
+            border-radius: 5px;
+            color: #708090;
+            font-size: 14px;
+            padding: 5px 15px;
+            margin-right: 10px;
+            display: inline-flex;
+            margin-bottom: 10px;
+        }
+        a:hover, span:hover {
+            background: rgba(27, 157, 239, 0.05);
+            border: 1px solid #1189d6;
+            box-sizing: border-box;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #1189d6;
+        }
+        .active {
+            background: rgba(27, 157, 239, 0.05);
+            border: 1px solid #1189d6;
+            box-sizing: border-box;
+            border-radius: 5px;
+            color: #1189d6;
+        }
+    }
+    .country-card {
+        .country-image-wrapper {
+            h3 {
+                margin: 0px;
+                padding: 0px 40.17px 0px 54px;
+                position: relative;
+                width: 100%;
+                font-size: 16px;
+                font-family: $helvetica-medium;
+                .flag-icon {
+                    position: absolute;
+                    left: 12px;
+                    top: 0px;
+                }
+                .pin-icon {
+                    position: absolute;
+                    right: 22.13px;
+                    left: inherit;
+                    top: 0px;
+                }
+            }
+
+            .customer-image-loader {
+                float: left;
+                margin-right: 7px;
+                border-radius: 2px;
+                margin-top: -2px;
+                margin-left: -25px;
+            }
+        }
+    }
+    .country-compare-card {
+        padding: 0px 24px 0px 24px;
+        h5 {
+            margin: 16px 0px;
+            color: rgba(112, 128, 144, 1);
+            font-family: $montserrat-500;
+        }
+        p {
+            color: rgba(15, 27, 43, 1);
+            font-family: $helvetica-regular;
+            font-size: 14px;
+        }
+        hr {
+            margin: 0px 0px 16px;
+        }
+        h6 {
+            color: rgba(239, 111, 108, 1);
+            font-size: 14px;
+            font-family: $montserrat-500;
+            margin: 0px 0px 16px 0px;
+        }
+    }
+    .country-card {
+        padding-bottom: 22px;
+        cursor: pointer;
+    }
+    .view-more {
+        display: flex;
+        height: 40px;
+        justify-content: center;
+        align-content: center;
+        span {
+            cursor: pointer;
+            color: rgba(64, 101, 158, 1);
+            font-family: $helvetica-medium;
+            text-decoration: underline;
+        }
+    }
+
+    .scroll-to-top-button {
+        position: fixed;
+        display: none;
+        bottom: 150px;
+        right: 20px;
+        z-index: 9999;
+        border: 1px solid #ddd;
+        padding: 12px 15px 16px;
+        border-radius: 50px;
+        background-color: #fff;
+        box-shadow: 0px 1px 8px 0px #ddd;
+        cursor: pointer;
+
+        &.display {
+            display: block;
+        }
+    }
+}
+.but-width{
+    width: 210px !important;
+}

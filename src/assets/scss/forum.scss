@@ -1,0 +1,24 @@
+.forum-class {
+    .common-wrapper {
+        padding: 0px;
+    }
+    .search-wrapper {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        .backdrop-filter {
+            display: none;
+        }
+        .profile-wrap {
+            right:27px;
+            top:10px;
+        }
+        .shopping-cart {
+            right: 105px;
+            top:23px;
+        }
+    }
+    .App-content {
+        padding: 0px 45px;
+    }
+}

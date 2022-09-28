@@ -1,0 +1,80 @@
+@import "../../../assets/scss/cus-variables";
+
+.specifics-detail {
+    .scrollscpy_overflow {
+        .tab-header {
+            height: 790px;
+            overflow-y: scroll;
+            padding-top: 20px;
+            li {
+                font-family: $helvetica-medium;
+                font-size: 16px;
+                cursor: pointer;
+            }
+
+            &::-webkit-scrollbar {
+                width: 6px;
+            }
+            /* Track */
+            &::-webkit-scrollbar-track {
+                background: #fff;
+            }
+            /* Handle */
+            &::-webkit-scrollbar-thumb {
+                background: #b7bfc7c2;
+                border-radius: 5px;
+            }
+            /* Handle on hover */
+            &::-webkit-scrollbar-thumb:hover {
+                background: #b7bfc7;
+            }
+        }
+        .scrollspy-para {
+            .tab-pane {
+                height: 750px;
+                overflow-y: scroll;
+                scroll-behavior: smooth;
+
+                &::-webkit-scrollbar {
+                    width: 6px;
+                }
+                /* Track */
+                &::-webkit-scrollbar-track {
+                    background: #fff;
+                }
+                /* Handle */
+                &::-webkit-scrollbar-thumb {
+                    background: #b7bfc7c2;
+                    border-radius: 5px;
+                }
+                /* Handle on hover */
+                &::-webkit-scrollbar-thumb:hover {
+                    background: #b7bfc7;
+                }
+            }
+            .supertopic-title {
+                font-family: $helvetica-medium;
+                font-size: 22px;
+            }
+            .topic-title {
+                font-family: $helvetica-medium;
+                font-size: 18px;
+            }
+            .subtopic-title {
+                font-family: $helvetica-medium;
+                font-size: 18px;
+            }
+            .tertopic-title {
+                font-family: $helvetica-medium;
+                font-size: 16px;
+            }
+            .text-data {
+                font-family: $helvetica-regular;
+                font-size: 16px;
+            }
+        }
+    }
+}
+.searchStyle{
+    background-color: rgba(180, 197, 228, 0.5) !important;
+}

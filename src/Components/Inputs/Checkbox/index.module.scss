@@ -1,0 +1,96 @@
+@import '.././../../assets/scss/cus-variables';
+.container {
+    user-select: none;
+    -webkit-user-select: none;
+    display: block;
+    position: relative;
+    width: fit-content;
+    margin: 0px 0px 0px 0px;
+    
+
+    &.secondary {
+        input {
+            &:checked ~ .checkmark {
+                background: #61c6c0;
+                border: 1px solid #61c6c0;
+            }
+            &:indeterminate ~ .checkmark {
+                background: #61c6c0;
+                border: 1px solid #61c6c0;
+            }
+        }
+    }
+    &.thrid_cb {
+        input {
+            &:checked ~ .checkmark {
+                background: #708090;
+                border: 1px solid #708090;
+            }
+            &:indeterminate ~ .checkmark {
+                background: #708090;
+                border: 1px solid #708090;
+            }
+        }
+    }
+
+    .label {
+        padding-left: 32px;
+        color: rgba(68, 84, 106, 1);
+    font-size: 14px;
+         font-family:$helvetica-regular;
+    }
+
+    input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+
+        &:checked ~ .checkmark {
+            background: #40659e;
+            &:after {
+                display: block;
+            }
+        }
+
+        &:indeterminate ~ .checkmark {
+            background: #40659e;
+            &:after {
+                display: block;
+                width: 5px;
+                height: 2px;
+                left: 4px;
+                top: 7px;
+                background: #fff;
+                border-width: 0 5px 0px 0;
+                transform: rotate(0deg);
+            }
+        }
+    }
+
+    .checkmark {
+        position: absolute;
+        top: 3px;
+        left: 0;
+        height: 16px;
+        width: 16px;
+        background: #fff;
+        border: 1px solid #707070;
+        border-radius: 3px;
+        &:after {
+            content: "";
+            position: absolute;
+            display: none;
+            left: 5px;
+            top: 1px;
+            width: 5px;
+            height: 10px;
+            border: solid white;
+            border-width: 0 2px 2px 0;
+            -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+        }
+    }
+}

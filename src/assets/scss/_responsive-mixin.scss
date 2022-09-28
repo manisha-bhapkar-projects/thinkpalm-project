@@ -1,0 +1,27 @@
+// Few Mixins
+
+// Media Queries
+
+@mixin respond($width) {
+	@if $width == w1000 {
+		@media (max-width: 1000px) {
+			@content;
+		}
+	}
+
+	@if $width == w1300 {
+		@media (max-width: 1300px) {
+			@content;
+		}
+	}
+
+	@if $width == w1700 {
+		@media (max-width: 1700px) {
+			@content;
+		}
+	}
+}
+
+//   ---------------------------
+//   ***************************
+//   ---------------------------

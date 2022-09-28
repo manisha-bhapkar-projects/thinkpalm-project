@@ -1,0 +1,114 @@
+.view-estimate-container {
+    padding: 32px 61px;
+    background-color: #FFFFFF;
+    margin-bottom: 70px;
+    border-radius: 6px;
+    .reference-id {
+        h3 {
+            color: rgba(68, 84, 106, 1);
+            font-size: 18px;
+            margin: 0px 0px 0px 0px;
+        }
+        p {
+            margin: 24px 0px 0px 0px;
+            color: rgba(15, 27, 43, 1);
+            font-size: 18px;
+        }  
+    }
+    .estimate-hours {
+        margin: 56px 0px;
+        h2 {
+            color: rgba(15, 27, 43, 1);
+            font-size: 35px;
+        }
+        h5 {
+            font-size: 16px;
+            color: #44546A;
+        }
+    }
+    .btn-container {
+        margin-bottom: 37px;
+        .cancel-btn {
+            width: 240px;
+            height: 48px;
+            background: rgba(112, 128, 144, 0.1);
+            border-radius: 4px;
+            font-size: 16px;
+            color: rgba(15, 27, 43, 1);
+            border: none;
+            font-family: $helvetica-regular;
+
+            &.disabled{
+                border: 1px solid #40659E;
+            }
+        }
+        .approve-btn {
+            width: 240px;
+            height: 48px;
+            background: rgba(64, 101, 158, 1);
+            border-radius: 4px;
+            font-size: 16px;
+            color: rgb(255, 255, 255);
+            border: none;
+            font-family: $helvetica-regular;
+            margin-left: 39px;
+
+            &.disabled{
+                background: #9fb2ce;
+                border: 1px solid #40659E;
+            }
+        }
+    }
+    .note_container {
+        
+        .note_header {
+            display: flex;
+        align-items: baseline;
+            h3 {
+                color: rgba(15, 27, 43, 1);
+                font-size: 18px;
+            }
+            .btn-note-save {
+                width:100px;
+                height: 48px;
+                background: rgba(64, 101, 158, 0.15);
+                border-radius: 4px;
+                font-size: 16px;
+                color: rgba(64, 101, 158, 1);
+                margin-left: auto;
+                border: none;
+                font-family: $helvetica-medium;
+            }
+        }
+        textarea {
+            height: 123px;
+            resize: none;
+            margin-top: 32px;
+        }
+    }
+}
+.approved-style{
+    margin: 45px 0px 0px 0px !important;
+}
+.doneApproved-btn{
+    
+    width: 240px;
+    height: 48px;
+    background: #40659e;
+    border-radius: 4px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    font-family: "webfontregular";
+    margin: 150px 0px 0px 0px !important;
+}
+.estimate-user{
+    color: #5878aa;
+}
+.disable-purchase{
+    color:#c3c6ca!important;
+}
+.disable-brief {
+   color:#c3c6ca!important;
+
+}

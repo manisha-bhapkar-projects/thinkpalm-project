@@ -1,0 +1,2664 @@
+@font-face {
+	font-family: "latoregular";
+	src: url("../fonts/lato-regular-webfont.woff2") format("woff2"),
+		url("../fonts/lato-regular-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "latomedium";
+	src: url("../fonts/lato-medium-webfont.woff2") format("woff2"),
+		url("../fonts/lato-medium-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "latosemibold";
+	src: url("../fonts/lato-semibold-webfont.woff2") format("woff2"),
+		url("../fonts/lato-semibold-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "rufinabold";
+	src: url("../fonts/rufina-bold-webfont.woff2") format("woff2"),
+		url("../fonts/rufina-bold-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "rufinaregular";
+	src: url("../fonts/rufina-regular-webfont.woff2") format("woff2"),
+		url("../fonts/rufina-regular-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "webfontregular";
+	src: url("../fonts/helvetica_neue_lt_55_roman-webfont.woff2")
+			format("woff2"),
+		url("../fonts/helvetica_neue_lt_55_roman-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "webfontmedium";
+	src: url("../fonts/helvetica_neue_lt_65_medium-webfont.woff2")
+			format("woff2"),
+		url("../fonts/helvetica_neue_lt_65_medium-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* line 2, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+body {
+	background-color: #fdfbf7;
+	overflow-x: hidden;
+}
+
+/* line 7, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.search-wrapper .profile-wrap img,
+.author-details .profile-pic img,
+.ip_header_wrap .ip_banner-img img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+/* line 13, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+label,
+.modal-lbl {
+	font-family: "latoregular";
+	font-size: 16px;
+	color: #9a9a9a;
+}
+
+/* line 19, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.main_wrapper {
+	padding: 0px 20px 0px 125px;
+	width: 100%;
+}
+
+/* line 23, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.main_wrapper .left_menu_wrapper {
+	background-color: #041321;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	height: 100vh;
+	width: 95px;
+}
+
+/* line 31, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.main_wrapper .left_menu_wrapper .logo_placer {
+	width: 52px;
+	height: 46px;
+	margin: auto;
+}
+
+/* line 36, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.main_wrapper .left_menu_wrapper .menu {
+	width: 100%;
+}
+
+/* line 38, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.main_wrapper .left_menu_wrapper .menu ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* line 42, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.main_wrapper .left_menu_wrapper .menu li {
+	list-style: none;
+	margin: 50px 0px;
+}
+
+/* line 45, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.main_wrapper .left_menu_wrapper .menu li a:hover {
+	text-decoration: none;
+}
+
+/* line 49, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.main_wrapper .left_menu_wrapper .menu .menu-ico,
+.main_wrapper .left_menu_wrapper .menu i {
+	font-size: 24px;
+	color: #fff;
+}
+
+/* line 53, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.main_wrapper .left_menu_wrapper .menu .menu-ico:hover,
+.main_wrapper .left_menu_wrapper .menu i:hover {
+	color: #1b9def;
+	text-decoration: none;
+}
+
+/* line 57, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.main_wrapper .left_menu_wrapper .menu .active {
+	color: #1b9def;
+}
+
+/* line 65, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.search-wrapper {
+	width: 100%;
+	padding: 20px 115px 0px 0px;
+	position: relative;
+}
+
+/* line 69, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.search-wrapper input {
+	border: 1px solid #e3e1dc;
+	padding: 0px 0px 0px 40px;
+	height: 46px;
+}
+
+/* line 74, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.search-wrapper .search-icon {
+	position: absolute;
+	left: 10px;
+	top: 30px;
+	font-size: 24px;
+}
+
+/* line 81, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.search-wrapper .shopping-cart {
+	position: absolute;
+	right: 65px;
+	top: 30px;
+}
+
+/* line 85, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.search-wrapper .shopping-cart .icon {
+	font-size: 30px;
+	color: #fff;
+}
+
+/* line 90, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.search-wrapper .profile-wrap {
+	width: 46px;
+	height: 46px;
+	background-color: gray;
+	position: absolute;
+	right: 0px;
+	top: 20px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+}
+
+/* line 105, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.header_wrapper {
+	padding: 0px 100px 0px 15px;
+	position: relative;
+}
+
+/* line 108, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.header_wrapper h2 {
+	font-family: "rufinabold";
+	font-size: 36px;
+	color: #041321;
+}
+
+/* line 113, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.header_wrapper .layout_ctrl {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+/* line 118, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.header_wrapper .layout_ctrl a {
+	font-size: 24px;
+	color: #9a9a9a;
+	padding: 1px;
+	border: 1px solid transparent;
+}
+
+/* line 123, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.header_wrapper .layout_ctrl a :first-child {
+	margin: 0px 0px 0px 0px;
+}
+
+/* line 126, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.header_wrapper .layout_ctrl a :last-child {
+	margin: 0px 0px 0px 0px;
+}
+
+/* line 131, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.header_wrapper .layout_ctrl a:hover {
+	color: #1b9def;
+	border: 1px solid #9a9a9a;
+	padding: 1px;
+}
+
+/* line 137, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.country-card {
+	background: #ffffff;
+	border: 1px solid #f5f0e6;
+	box-sizing: border-box;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.14);
+	border-radius: 6px;
+	width: 100%;
+	height: 100%;
+	padding: 70px 40px 30px;
+	position: relative;
+	margin: 0px 0px 20px 0px;
+	overflow: hidden;
+}
+
+/* line 149, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.country-card .country-image-wrapper {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 60px;
+	z-index: 2;
+}
+
+/* line 157, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.country-card .country-image-wrapper h3 {
+	font-family: "rufinabold";
+	font-size: 28px;
+	color: #fff;
+	margin: 13px 0px 0px 15px;
+}
+
+/* line 164, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.country-card .country-image {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 60px;
+	z-index: 1;
+}
+
+/* line 171, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.country-card .country-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+/* line 178, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.details-wrap {
+	position: relative;
+}
+
+/* line 180, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.details-wrap span {
+	color: #575757;
+	font-size: 13px;
+	font-family: "latoregular";
+	position: relative;
+	padding: 0px 60px 0px 0px;
+	width: 100%;
+	display: block;
+}
+
+/* line 188, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.details-wrap span .round {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	position: absolute;
+	top: 4px;
+	left: -15px;
+}
+
+/* line 196, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.details-wrap span .date-ctrl {
+	position: absolute;
+	right: 0px;
+	top: 2px;
+	color: #9a9a9a;
+	font-size: 12px;
+	font-family: "latoregular";
+}
+
+/* line 205, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.details-wrap .maintitle {
+	font-size: 14px;
+	color: #041321;
+	font-family: "latomedium";
+}
+
+/* line 212, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.author-details {
+	padding: 0px 0px 0px 75px;
+	position: relative;
+	width: 100%;
+}
+
+/* line 216, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.author-details h3 {
+	font-family: "rufinabold";
+	color: #041321;
+	font-size: 16px;
+}
+
+/* line 221, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.author-details h4 {
+	font-family: "latoregular";
+	color: #041321;
+	font-size: 14px;
+}
+
+/* line 226, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.author-details a {
+	color: #1b9def;
+	list-style: underline;
+	font-family: "latoregular";
+	font-size: 14px;
+}
+
+/* line 232, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.author-details .profile-pic {
+	width: 55px;
+	height: 55px;
+	border-radius: 50%;
+	position: absolute;
+	left: 0px;
+	top: 6px;
+}
+
+/* line 244, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.border-top {
+	border-top: 7px solid #1b9def !important;
+}
+
+/* line 247, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.border-maroon {
+	border-top-color: #cb4900 !important;
+}
+
+/* line 250, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.border-red {
+	border-top-color: #cb4900 !important;
+}
+
+/* line 253, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.border-yellow {
+	border-top-color: #f9b132 !important;
+}
+
+/* line 256, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.blue_bg {
+	background-color: #1b9def;
+}
+
+/* line 259, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.maroon_bg {
+	background-color: #cb4900;
+}
+
+/* line 262, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.red_bg {
+	background-color: #cb4900;
+}
+
+/* line 265, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.yellow_bg {
+	background-color: #f9b132;
+}
+
+/* line 268, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.country-action-wrapper {
+	position: relative;
+	width: 100%;
+}
+
+/* line 271, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.country-action-wrapper .btn-primary {
+	background-color: #1b9def;
+	border-color: #1b9def;
+	box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	font-family: "latomedium";
+	font-size: 14px;
+}
+
+/* line 279, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.country-action-wrapper .action-text {
+	color: #041321;
+	font-family: "latoregular";
+	font-size: 14px;
+	margin: 10px 0px 15px 0px;
+}
+
+/* line 284, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.country-action-wrapper .action-text span {
+	display: inline-block;
+	margin: 0px 20px 0px 20px;
+}
+
+/* line 288, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.country-action-wrapper .action-text a {
+	color: #1b9def;
+	text-decoration: underline;
+}
+
+/* line 296, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.next-btn,
+.prev-btn {
+	width: 54px;
+	height: 54px;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+	background-color: #fff;
+	position: absolute;
+	top: 100px;
+	z-index: 3;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* line 310, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.next-btn .arrow,
+.prev-btn .arrow {
+	font-size: 25px;
+	color: #1b9def;
+}
+
+/* line 314, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.popular-card {
+	width: 100%;
+	position: relative;
+}
+
+/* line 317, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.popular-card .country-card {
+	overflow: hidden;
+}
+
+/* line 320, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.popular-card .details-wrap span {
+	color: #041321;
+	font-family: "latomedium";
+	font-size: 14px;
+	padding: 0px;
+	margin: 15px 0px 15px 0px;
+}
+
+/* line 328, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.popular-card .navigation-inline {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* line 332, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.popular-card .navigation-inline a {
+	width: 10px;
+	height: 10px;
+	background: rgba(112, 128, 144, 0.3);
+	border-radius: 50%;
+	margin: 0px 5px;
+}
+
+/* line 339, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.popular-card .navigation-inline .active {
+	background: slategray;
+}
+
+/* line 345, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.next-btn {
+	right: -13px;
+}
+
+/* line 352, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.prev-btn {
+	left: -13px;
+}
+
+/* line 359, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.tab-section {
+	width: 100%;
+}
+
+/* line 361, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.tab-section .tab-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0px 0px 70px 0px;
+}
+
+/* line 366, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.tab-section .tab-header a {
+	font-family: "latoregular";
+	font-size: 16px;
+	color: #041321;
+	padding: 0px 10px 15px 10px;
+	margin: 0px 30px;
+	text-decoration: none;
+}
+
+/* line 374, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.tab-section .tab-header a:hover {
+	color: #015eac;
+	border-bottom: 2px solid #f9b132;
+}
+
+/* line 378, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.tab-section .tab-header .active {
+	color: #015eac;
+	border-bottom: 2px solid #f9b132;
+}
+
+/* line 383, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.tab-section .tab-section {
+	width: 100%;
+}
+
+/* line 385, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.tab-section .tab-section .section-1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+/* line 392, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.tab-section .tab-navigation {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+/* line 397, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.tab-section .tab-navigation a {
+	font-size: 14px;
+	font-family: "latomedium";
+	color: #000;
+	margin: 0px 30px;
+}
+
+/* line 403, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.tab-section .tab-navigation .active {
+	color: #1b9def;
+}
+
+/* line 406, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.tab-section .tab-navigation span {
+	font-size: 50px;
+	font-family: "latoregular";
+	width: 2px;
+	height: 45px;
+	background-color: #9a9a9a;
+}
+
+/* line 415, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.popular-content {
+	background: #fff;
+	width: 100%;
+	border: 1px solid #f5f0e6;
+	border-radius: 5px;
+	min-height: 300px;
+	padding: 30px 60px;
+	position: relative;
+}
+
+/* line 423, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.popular-content h3 {
+	font-family: "rufinabold";
+	font-size: 16px;
+	color: #041321;
+	padding-right: 30px;
+}
+
+/* line 429, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.popular-content .content-info {
+	font-family: "latoregular";
+	border-right: 2px solid rgba(154, 154, 154, 0.2);
+	padding-right: 50px;
+}
+
+/* line 433, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.popular-content .content-info span,
+.popular-content .content-info p {
+	color: #708090;
+	font-size: 14px;
+}
+
+/* line 439, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.btn-bottom-wrap {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+/* line 444, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.btn-bottom-wrap .chatbox {
+	font-size: 18px;
+	position: relative;
+	top: 4px;
+}
+
+/* line 451, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.country-card .country-image-wrapper,
+.ip_header_wrap .ip_banner_gradient {
+	background: rgba(4, 19, 33, 0.5);
+	background: -moz-linear-gradient(
+		90deg,
+		rgba(4, 19, 33, 0.82) 0%,
+		rgba(4, 19, 33, 0.4) 100%
+	);
+	background: -webkit-linear-gradient(
+		90deg,
+		rgba(4, 19, 33, 0.82) 0%,
+		rgba(4, 19, 33, 0.4) 100%
+	);
+	background: linear-gradient(
+		90deg,
+		rgba(4, 19, 33, 0.82) 0%,
+		rgba(4, 19, 33, 0.4) 100%
+	);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#041321",endColorstr="#041321",GradientType=1);
+}
+
+/* line 460, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.ip_header_wrap {
+	width: calc(100% + 50px);
+	height: 305px;
+	margin-left: -30px;
+	padding: 0px 20px 0px 30px;
+	position: relative;
+}
+
+/* line 467, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.ip_header_wrap .ip_banner_gradient {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	height: 305px;
+}
+
+/* line 474, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.ip_header_wrap .ip_banner-img {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+}
+
+/* line 478, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.ip_header_wrap .ip_banner-img img {
+	border-radius: inherit;
+	height: 305px;
+}
+
+/* line 485, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.breadcrumb-wrap {
+	position: relative;
+	z-index: 3;
+}
+
+/* line 488, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.breadcrumb-wrap .breadcrumb {
+	background: inherit;
+	border-radius: inherit;
+	padding-left: 0px !important;
+}
+
+/* line 492, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.breadcrumb-wrap .breadcrumb a {
+	color: #fff;
+}
+
+/* line 495, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.breadcrumb-wrap .breadcrumb .breadcrumb-item.active {
+	color: #fff !important;
+}
+
+/* line 499, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.breadcrumb-wrap .breadcrumb-item + .breadcrumb-item::before {
+	content: ">" !important;
+	color: #fff !important;
+}
+
+/* line 505, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.title-action-wrap {
+	position: relative;
+	z-index: 3;
+	padding: 0px;
+	width: 100%;
+}
+
+/* line 510, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.title-action-wrap h2 {
+	font-family: "rufinabold";
+	font-size: 40px;
+	color: #fff;
+}
+
+/* line 515, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.title-action-wrap a {
+	background-color: rgba(255, 255, 255, 0.1);
+	height: 32px;
+	border-radius: 4px;
+	margin: 0px 0px 0px 25px;
+	padding: 4px 10px;
+	color: #fff;
+}
+
+/* line 523, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.title-action-wrap .compare,
+.title-action-wrap .share {
+	position: relative;
+	top: 2px;
+}
+
+/* line 528, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.title-action-wrap .push-pin-icon {
+	background-color: transparent;
+	margin-left: 10px;
+	height: auto;
+	font-size: 20px;
+	position: relative;
+	top: 3px;
+}
+
+/* line 537, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.updated-info {
+	width: 100%;
+	margin: 60px 0px 0px 0px;
+}
+
+/* line 540, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.updated-info span {
+	font-family: "latoregular";
+	color: #fff;
+	font-size: 14px;
+	width: 100%;
+	display: block;
+}
+
+/* line 547, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.updated-info .user-icon {
+	position: relative;
+	color: #fff;
+	left: 5px;
+	top: -3px;
+}
+
+/* line 554, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.card-header-wrap {
+	position: relative;
+	padding: 0px 100px 10px 40px;
+	margin-left: -40px;
+	width: calc(100% + 80px);
+	border-bottom: 1px dashed #f5f0e6;
+	margin-bottom: 15px;
+}
+
+/* line 561, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.card-header-wrap i {
+	font-size: 18px;
+	color: #525252;
+	position: absolute;
+	left: 13px;
+	top: 2px;
+}
+
+/* line 568, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.card-header-wrap .paper-fold {
+	font-size: 18px;
+	color: #525252;
+	position: absolute;
+	left: 13px;
+	top: 2px;
+}
+
+/* line 575, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.card-header-wrap a {
+	color: #1b9def;
+	text-decoration: underline;
+	position: absolute;
+	top: 0px;
+	right: 35px;
+	font-size: 13px;
+}
+
+/* line 584, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.Expert-team-wrapper {
+	background: #ffffff;
+	border: 1px solid #f5f0e6;
+	box-sizing: border-box;
+	border-radius: 6px;
+	height: calc(100% + 134px);
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	top: -134px;
+}
+
+/* line 594, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.Expert-team-wrapper .blue-header-section {
+	background: #1b9def;
+	height: 109px;
+}
+
+/* line 597, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.Expert-team-wrapper .blue-header-section h3 {
+	background-color: #1189d6;
+	height: 43px;
+	font-size: 16px;
+	font-family: "rufinabold";
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* line 608, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.Expert-team-wrapper .expert-wrapper {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	top: -40px;
+}
+
+/* line 615, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.Expert-team-wrapper .expert-wrapper a {
+	color: "latoregular";
+	text-decoration: underline;
+	font-size: 14px;
+}
+
+/* line 620, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.Expert-team-wrapper .expert-wrapper img {
+	width: 73px;
+	height: 73px;
+	border-radius: 50%;
+	background: red;
+	object-fit: cover;
+	border: 1px solid #fff;
+}
+
+/* line 628, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.Expert-team-wrapper .expert-wrapper h3 {
+	font-family: "rufinabold";
+	font-size: 16px;
+	color: #433f37;
+	margin: 10px 0px 10px 0px;
+}
+
+/* line 634, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.Expert-team-wrapper .expert-wrapper h5 {
+	color: #575757;
+	font-size: 16px;
+	font-family: "latoregular";
+}
+
+/* line 639, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.Expert-team-wrapper .expert-wrapper .btn-primary {
+	background: #ffffff;
+	border: 1px solid #1b9def;
+	box-sizing: border-box;
+	border-radius: 4px;
+	color: #1b9def;
+	font-family: "latomedium" !important;
+	font-size: 14px;
+	min-width: 200px;
+	margin: 30px 0px 0px 0px;
+	text-decoration: none !important;
+}
+
+/* line 651, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.Expert-team-wrapper .expert-wrapper .darkeralt {
+	color: #575757;
+}
+
+/* line 656, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.tab-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+/* line 659, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.tab-wrapper ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* line 663, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.tab-wrapper li {
+	float: left;
+	list-style: none;
+	padding: 0px 20px 0px 0px;
+	text-transform: uppercase;
+}
+
+/* line 668, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.tab-wrapper li a {
+	color: #708090;
+	font-size: 14px;
+	font-family: "latoregular";
+}
+
+/* line 674, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.tab-wrapper .active {
+	color: #1b9def;
+	font-family: "latosemibold";
+}
+
+/* line 682, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.tab-section .tab-section-header {
+	margin: 40px 0px;
+}
+
+/* line 684, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.tab-section .tab-section-header h3 {
+	font-family: "rufinabold";
+	font-size: 24px;
+	color: #000;
+}
+
+/* line 690, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.tab-section .tab-section-content {
+	background: #ffffff;
+	border: 1px solid #ededed;
+	box-sizing: border-box;
+	border-radius: 6px;
+	padding: 40px 80px;
+}
+
+/* line 696, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.tab-section .tab-section-content .features {
+	position: relative;
+	padding: 0px 0px 0px 60px;
+	margin: 0px 0px 40px 0px;
+}
+
+/* line 700, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.tab-section .tab-section-content .features h6 {
+	color: #708090;
+	font-family: "latoregular";
+	font-size: 14px;
+}
+
+/* line 704, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.tab-section .tab-section-content .features h6 a {
+	margin: 0px 0px 0px 10px;
+	font-size: 12px;
+	color: #1b9def;
+	text-decoration: underline;
+}
+
+/* line 711, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.tab-section .tab-section-content .features h4 {
+	font-family: "latoregular";
+	font-size: 16px;
+	color: #041321;
+}
+
+/* line 716, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.tab-section .tab-section-content .features i {
+	position: absolute;
+	top: 5px;
+	left: 0px;
+	font-size: 30px;
+	color: #0d5684;
+}
+
+/* line 724, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.tab-section .tab-section-content .feature-info {
+	position: relative;
+	padding-left: 120px;
+	font-size: 16px;
+	font-family: "latoregular";
+	color: #041321;
+}
+
+/* line 730, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.tab-section .tab-section-content .feature-info span {
+	position: absolute;
+	left: 18px;
+	top: 4px;
+	font-size: 14px;
+	color: #708090;
+	font-family: "rufinabold";
+}
+
+/* line 741, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.scrollspy-header {
+	margin: 80px 0px;
+}
+
+/* line 743, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.scrollspy-header h3 {
+	color: #000;
+	font-size: 24px;
+	font-family: "rufinabold";
+}
+
+/* line 749, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.scrollspy-content {
+	background: #ffffff;
+	border: 1px solid #ededed;
+	box-sizing: border-box;
+	border-radius: 6px;
+	padding: 0px 0px;
+}
+
+/* line 755, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.scrollspy-content ul {
+	margin: 0px;
+	padding: 0px;
+	background: #ffffff;
+	border: 1px solid #ededed;
+	box-sizing: border-box;
+	box-shadow: 2px 1px 8px rgba(0, 0, 0, 0.15);
+	height: 100%;
+}
+
+/* line 764, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.scrollspy-content li {
+	list-style: none;
+	position: relative;
+	font-family: "latomedium";
+	font-size: 18px;
+	color: #708090;
+	margin: 0px 0px 15px 0px;
+	padding: 10px 20px 10px 40px;
+}
+
+/* line 772, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.scrollspy-content li ul {
+	margin: 15px 0px 15px 0px;
+	padding: 0px 0px 0px 0px;
+	background: transparent;
+	box-shadow: inherit;
+	border: inherit;
+}
+
+/* line 779, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.scrollspy-content li li {
+	color: #041321;
+	font-size: 16px;
+	padding: 0px 0px 0px 15px;
+}
+
+/* line 786, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.scrollspy-content .selected {
+	background: rgba(27, 157, 239, 0.05);
+}
+
+/* line 791, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.round {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	position: absolute;
+	top: 20px;
+	left: 16px;
+}
+
+/* line 799, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.dropdown-arrow {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+/* line 803, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.dropdown-arrow i {
+	color: #041321;
+	position: absolute;
+	right: 10px;
+	top: 15px;
+	font-size: 24px;
+	transform: rotate(180deg);
+}
+
+/* line 812, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.scrollspy-para {
+	padding: 20px 0px;
+}
+
+/* line 814, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.scrollspy-para h3 {
+	color: #041321;
+	font-size: 22px;
+	font-family: "latomedium";
+	position: relative;
+	padding: 0px 0px 0px 10px;
+}
+
+/* line 821, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.scrollspy-para .round {
+	top: 10px;
+	left: 0px;
+}
+
+/* line 825, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.scrollspy-para p {
+	margin: 20px 0px;
+}
+
+/* line 829, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+p {
+	color: #041321;
+	font-size: 18px;
+	font-family: "latoregular";
+	line-height: 30px;
+}
+
+/* line 835, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.modal {
+	background: rgba(4, 19, 33, 0.7);
+}
+
+/* line 838, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.modal-header {
+	background: #1189d6;
+	position: relative;
+}
+
+/* line 841, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.modal-header h5 {
+	font-size: 20px;
+	font-family: "latomedium";
+	color: #fff;
+}
+
+/* line 847, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.close {
+	float: right;
+	font-size: 1.5rem;
+	font-weight: 400;
+	line-height: 1;
+	color: #fff;
+	text-shadow: inherit;
+	opacity: 1;
+}
+
+/* line 859, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.form-control {
+	background: #fdfbf7;
+	border: 1px solid rgba(154, 154, 154, 0.5);
+	border-radius: 6px;
+	height: 48px;
+}
+
+/* line 869, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.modal-lbl.select-lbl {
+	color: #041321;
+}
+
+/* line 872, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.select-country-wrapper {
+	background: #ffffff;
+	border: 1px solid rgba(154, 154, 154, 0.8);
+	border-radius: 6px;
+	padding: 60px 10px 10px 10px;
+	position: relative;
+	height: 300px;
+	overflow-y: auto;
+	margin: 10px 0px;
+}
+
+/* line 881, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.select-country-wrapper .country-search {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	padding: 10px 10px 0px 10px;
+}
+
+/* line 887, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.select-country-wrapper .country-search i {
+	position: absolute;
+	top: 21px;
+	left: 18px;
+	font-size: 20px;
+}
+
+/* line 893, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.select-country-wrapper .country-search input {
+	padding: 10px 10px 10px 40px;
+	width: 100%;
+	height: 40px;
+	border: 1px solid #ededed;
+	border-radius: 4px;
+}
+
+/* line 900, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.select-country-wrapper .country-search :focus {
+	border: 1px solid #1b9def;
+	outline: none;
+}
+
+/* line 906, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.selected-country-wrapper {
+	background: #ffffff;
+	border: 1px solid rgba(154, 154, 154, 0.8);
+	border-radius: 6px;
+	padding: 10px 0px;
+	position: relative;
+	height: 300px;
+	overflow-y: auto;
+	width: 100%;
+	margin: 10px 0px;
+}
+
+/* line 916, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.selected-country-wrapper ul {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+/* line 920, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.selected-country-wrapper li {
+	list-style: none;
+	padding: 10px;
+	position: relative;
+	font-family: "latomedium";
+	font-size: 16px;
+	cursor: pointer;
+}
+
+/* line 928, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.selected-country-wrapper .close-btn {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	top: 12px;
+	right: 0px;
+	color: #000;
+	font-size: 18px;
+	display: none;
+}
+
+/* line 938, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.selected-country-wrapper .close-btn:hover {
+	text-decoration: inherit;
+}
+
+/* line 943, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+li:hover {
+	background: rgba(27, 157, 239, 0.05);
+}
+
+/* line 945, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+li:hover .close-btn {
+	display: block;
+}
+
+/* line 953, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.container-cb {
+	display: block;
+	position: relative;
+	padding-left: 25px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	font-size: 16px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	color: #041321;
+	font-family: "latomedium";
+}
+
+/* Hide the browser's default checkbox */
+/* line 969, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.container-cb input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+/* Create a custom checkbox */
+/* line 978, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.checkmark {
+	position: absolute;
+	top: 3px;
+	left: 0;
+	height: 18px;
+	width: 18px;
+	background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+/* line 988, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.container-cb:hover input ~ .checkmark {
+	background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+/* line 993, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.container-cb input:checked ~ .checkmark {
+	background-color: #2196f3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+/* line 998, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+/* Show the checkmark when checked */
+/* line 1005, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.container-cb input:checked ~ .checkmark:after {
+	display: block;
+}
+
+/* Style the checkmark/indicator */
+/* line 1010, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.container-cb .checkmark:after {
+	left: 7px;
+	top: 4px;
+	width: 5px;
+	height: 10px;
+	border: solid white;
+	border-width: 0 2px 2px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+/* line 1026, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.modal-footer .btn-primary {
+	width: 160px;
+	height: 40px;
+	background: #1b9def;
+	border-radius: 4px;
+}
+
+/* line 1035, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.breadcrumb-black a {
+	color: #041321 !important;
+}
+
+/* line 1038, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.breadcrumb-black .breadcrumb-item + .breadcrumb-item::before {
+	color: #041321 !important;
+}
+
+/* line 1041, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.breadcrumb-black .breadcrumb-item.active {
+	color: #041321 !important;
+}
+
+/* line 1044, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.breadcrumb-black .breadcrumb {
+	background: inherit;
+	border-radius: inherit;
+	padding-left: 0px !important;
+}
+
+/* line 1049, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.breadcrumb-black li:hover {
+	background: inherit;
+}
+
+/* line 1053, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.comparison-wrapper {
+	background: #ffffff;
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+	padding: 15px;
+	border-radius: 6px;
+	margin: 0px 0px 20px 0px;
+	min-width: 991px;
+}
+
+/* line 1060, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.comparison-wrapper .country-features {
+	border-bottom: 1px solid rgba(4, 19, 33, 0.1);
+}
+
+/* line 1063, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.comparison-wrapper .test-div {
+	width: 25%;
+	display: inline-block;
+}
+
+/* line 1068, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.comparison-wrapper .snapshot-points h4 {
+	font-family: "latoregular";
+	font-size: 16px;
+	color: #041321;
+	margin: 5px 0px;
+}
+
+/* line 1076, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.comparison-wrapper h3 {
+	font-family: "rufinabold";
+	font-size: 24px;
+	color: #041321;
+}
+
+/* line 1082, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.comparison-wrapper .sub-header {
+	padding: 0px 0px 20px 0px;
+}
+
+/* line 1085, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.comparison-wrapper h4,
+.comparison-wrapper p {
+	font-family: "latoregular";
+	font-size: 16px;
+	color: #041321;
+	margin: 0px 0px;
+	padding: 10px;
+}
+
+/* line 1092, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.comparison-wrapper .country-details-wrap {
+	position: relative;
+	padding: 0px 0px 20px 40px;
+}
+
+/* line 1095, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.comparison-wrapper .country-details-wrap .country-flag {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	border-radius: 50%;
+	width: 32px;
+	height: 32px;
+}
+
+/* line 1102, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.comparison-wrapper .country-details-wrap .country-flag img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+/* line 1109, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.comparison-wrapper .seperator {
+	border-bottom: 1px solid rgba(4, 19, 33, 0.1);
+}
+
+/* line 1112, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.comparison-wrapper .lightgray {
+	background: rgba(27, 157, 239, 0.06);
+}
+
+/* line 1115, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.comparison-wrapper .shadow-wrap {
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* line 1120, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.layout_ctrl .btn {
+	font-size: 1rem !important;
+	color: #fff !important;
+	padding: 0.375rem 0.75rem !important;
+	position: relative;
+	top: -8px;
+}
+
+/* line 1129, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.country-compare-card h5 {
+	color: #708090;
+	font-family: "rufinabold";
+	font-size: 15px;
+}
+
+/* line 1134, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.country-compare-card h6 {
+	color: #cb4900;
+	font-family: "rufinabold";
+	font-size: 15px;
+}
+
+/* line 1139, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.country-compare-card p {
+	font-family: "latoregular";
+	font-size: 15px;
+}
+
+/* line 1145, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.tag-header h3 {
+	font-size: 18px;
+	color: 18px;
+	font-family: "latoregular";
+}
+
+/* line 1151, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.tags {
+	margin: 10px 0px 35px 0px;
+}
+
+/* line 1153, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.tags a {
+	border: 1px solid rgba(112, 128, 144, 0.5);
+	border-radius: 5px;
+	color: #708090;
+	font-size: 14px;
+	padding: 5px 15px;
+	margin-right: 10px;
+	display: inline-flex;
+	margin-bottom: 10px;
+}
+
+/* line 1163, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.tags a:hover {
+	background: rgba(27, 157, 239, 0.05);
+	border: 1px solid #1189d6;
+	box-sizing: border-box;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #1189d6;
+}
+
+/* line 1172, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.tags .active {
+	background: rgba(27, 157, 239, 0.05);
+	border: 1px solid #1189d6;
+	box-sizing: border-box;
+	border-radius: 5px;
+	color: #1189d6;
+}
+
+/* line 1181, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.updated-info a {
+	background: rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(40px);
+	/* Note: backdrop-filter has minimal browser support */
+	border-radius: 4px;
+	width: 30px;
+	display: inline-flex;
+	height: 25px;
+	justify-content: center;
+	align-items: center;
+}
+
+/* line 1191, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.updated-info a i {
+	color: #fff;
+}
+
+/* line 1209, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.modal-2 .modal-header {
+	background-color: #fff;
+	border-bottom: 0px;
+}
+
+/* line 1212, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.modal-2 .modal-header h5 {
+	color: #041321;
+	font-size: 16px;
+}
+
+/* line 1216, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.modal-2 .modal-header .close {
+	color: #041321;
+}
+
+/* line 1220, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.modal-2 .form-area {
+	position: relative;
+	padding: 0px 100px 0px 0px;
+}
+
+/* line 1223, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.modal-2 .form-area .btn-primary {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	background-color: #1b9def;
+	border-color: #1b9def;
+}
+
+/* line 1230, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.modal-2 .form-area .form-control {
+	padding: 0px 15px 0px 15px;
+	height: 39px;
+	border-radius: inherit;
+}
+
+/* line 1237, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.compare-items-wrapper {
+	display: table;
+	width: 100%;
+}
+
+/* line 1241, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.items-wrap {
+	display: table-cell;
+	padding: 16px;
+}
+
+/* line 1245, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.responsive-data {
+	overflow-x: auto;
+	width: 100%;
+}
+
+/****************************************admin-add-screen 25/05/21***************************************/
+/* line 1251, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background-image: url(../images/caret-down.png);
+	background-repeat: no-repeat;
+	background-position: 98% 50%;
+}
+
+/* line 1259, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.shoping-cart-color {
+	color: #9a9a9a !important;
+}
+
+/* line 1263, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.breadcrump-admin .breadcrumb {
+	background: transparent;
+}
+
+/* line 1265, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.breadcrump-admin .breadcrumb a {
+	color: #041321;
+	font-family: "webfontregular";
+	font-size: 14px;
+}
+
+/* line 1270, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.breadcrump-admin .breadcrumb li:hover {
+	background: transparent;
+}
+
+/* line 1274, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.breadcrump-admin .breadcrumb .breadcrumb-item.active {
+	color: #041321;
+}
+
+/* line 1278, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.breadcrump-admin .breadcrumb-item + .breadcrumb-item::before {
+	float: left;
+	color: #6c757d;
+	font-family: "webfontregular";
+	content: "";
+	background: url(../images/caret-right.svg) no-repeat;
+	width: 14px;
+	height: 14px;
+	background-size: 100%;
+	position: relative;
+	top: 7px;
+	margin-right: 10px;
+}
+
+/* line 1293, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.title-action-wrap h3 {
+	padding: 0px 0px 0px 50px;
+	font-size: 24px;
+	font-family: #041321;
+	color: "rufinabold";
+	position: relative;
+}
+
+/* line 1299, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.title-action-wrap h3 a {
+	color: #041321;
+}
+
+/* line 1302, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.title-action-wrap h3 i {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	font-size: 30px;
+}
+
+/* line 1309, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.title-action-wrap .btn-light {
+	background: rgba(112, 128, 144, 0.1);
+	border-radius: 4px;
+	min-width: 130px;
+}
+
+/* line 1314, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.title-action-wrap .btn-primary {
+	background: #1189d6;
+	border-radius: 4px;
+	min-width: 130px;
+}
+
+/* line 1320, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.form-wrapper {
+	background: #ffffff;
+	box-shadow: -1px 1px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 6px;
+	padding: 60px;
+	width: 100%;
+	margin: 20px 0px 20px 0px;
+}
+
+/* line 1327, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.form-wrapper h4 {
+	font-family: "webfontmedium";
+	color: #041321;
+	font-size: 20px;
+	margin: 0px 0px 30px 0px;
+}
+
+/* line 1333, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.form-wrapper .date-picker {
+	position: relative;
+}
+
+/* line 1335, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.form-wrapper .date-picker a {
+	position: absolute;
+	right: 10px;
+	top: 5px;
+}
+
+/* line 1342, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.form-wrapper .cus-text-area textarea {
+	height: 100px;
+}
+
+/* line 1345, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.form-wrapper .cus-text-area label {
+	position: relative;
+	color: #9a9a9a;
+	background: #fff;
+	font-family: "webfontregular";
+	font-size: 12px;
+	text-transform: capitalize;
+	padding: 0px 10px;
+	top: 15px;
+	left: 14px;
+}
+
+/* line 1359, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.form-wrapper .floating {
+	margin-bottom: 2rem;
+	position: relative;
+	/*  background-color: var(--field__background);*/
+	transition: background-color 0.2s ease;
+	/*
+      border-top-left-radius: 4px;
+      border-top-right-radius: 4px;
+    */
+}
+
+/* line 1371, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.form-wrapper .floating i {
+	position: absolute;
+	top: 11px;
+	right: 10px;
+	color: #708090;
+	font-size: 18px;
+}
+
+/* line 1379, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.form-wrapper .floating__input {
+	padding: 5px 10px 5px 10px;
+	font-size: 18px;
+	border: 1px solid rgba(154, 154, 154, 0.5);
+	transition: border-color 0.2s ease;
+	border-radius: 6px;
+	width: 100%;
+	height: 40px;
+	box-sizing: border-box;
+	color: #708090;
+	font-family: "webfontregular";
+}
+
+/* line 1392, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.form-wrapper .floating__input:focus {
+	outline: none;
+}
+
+/* line 1398, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.form-wrapper .floating__input::placeholder {
+	color: rgba(0, 0, 0, 0);
+}
+
+/* line 1402, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.form-wrapper .floating__label {
+	display: block;
+	position: relative;
+	max-height: 0;
+	font-weight: 500;
+	pointer-events: none;
+}
+
+/* line 1410, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.form-wrapper .floating__label::before {
+	font-family: "webfontregular";
+	color: #708090;
+	text-transform: capitalize;
+	font-size: 14px;
+	content: attr(data-content);
+	display: inline-block;
+	filter: blur(0);
+	backface-visibility: hidden;
+	transform-origin: left top;
+	transition: transform 0.2s ease;
+	left: 0.8rem;
+	position: relative;
+	top: 1px;
+}
+
+/* line 1426, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.form-wrapper .floating__label::after {
+	bottom: 1rem;
+	content: "";
+	height: 0.1rem;
+	position: absolute;
+	transition: transform 180ms cubic-bezier(0.4, 0, 0.2, 1),
+		opacity 180ms cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s ease;
+	opacity: 0;
+	left: 0;
+	top: 100%;
+	margin-top: -0.1rem;
+	transform: scale3d(0, 1, 1);
+	width: 100%;
+	/*  background-color: var(--color__accent);*/
+}
+
+/* line 1442, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.form-wrapper .floating__input:focus + .floating__label::after {
+	transform: scale3d(1, 1, 1);
+	opacity: 1;
+}
+
+/* line 1447, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.form-wrapper .floating__input:placeholder-shown + .floating__label::before {
+	transform: translate3d(0, -2.2rem, 0) scale3d(1, 1, 1);
+}
+
+/* line 1451, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.form-wrapper .floating__label::before,
+.form-wrapper .floating__input:focus + .floating__label::before {
+	transform: translate3d(0, -3.3rem, 0) scale3d(0.82, 0.82, 1);
+}
+
+/* line 1456, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.form-wrapper .floating__input:focus + .floating__label::before {
+	color: #9a9a9a;
+	background: #fff;
+	font-family: "webfontregular";
+	font-size: 15px;
+	text-transform: capitalize;
+	padding: 0px 10px;
+}
+
+/* line 1465, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.form-wrapper .select-dropdown .floating__label::before {
+	color: #9a9a9a;
+	background: #fff;
+	font-family: "webfontregular";
+	font-size: 15px;
+	text-transform: capitalize;
+	padding: 0px 10px;
+}
+
+/* line 1475, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.form-wrapper *,
+.form-wrapper *:before,
+.form-wrapper *:after {
+	box-sizing: inherit;
+}
+
+/* line 1481, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.form-wrapper .hidden--visually {
+	border: 0;
+	clip: rect(1px 1px 1px 1px);
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+/* line 1493, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.form-wrapper .button {
+	background: var(--color__accent);
+	border-width: 0;
+	color: #fff;
+	display: block;
+	width: 100%;
+	padding: 1rem 2rem;
+	font-weight: 600;
+	font-size: 1.25rem;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+/************************************************Search results 26/05/21****************************************************/
+/* line 1508, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.search-results-wrap .search-header-bg {
+	background-color: #233241;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	height: 305px;
+}
+
+/* line 1515, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.search-results-wrap .breadcrump-admin .breadcrumb a,
+.search-results-wrap
+	.breadcrump-admin
+	.breadcrumb-item
+	+ .breadcrumb-item::before,
+.search-results-wrap .breadcrump-admin .breadcrumb .breadcrumb-item.active {
+	color: #fff;
+}
+
+/* line 1521, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.search-results-wrap
+	.breadcrump-admin
+	.breadcrumb-item
+	+ .breadcrumb-item::before {
+	background: url(../images/caret-right-white.svg) no-repeat;
+	background-size: 100%;
+}
+
+/* line 1525, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.search-results-wrap .quick-search {
+	width: 800px;
+	position: relative;
+	margin: auto;
+}
+
+/* line 1529, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.search-results-wrap .quick-search h3 {
+	font-family: "rufinabold";
+	color: #fff;
+	font-size: 26px;
+	margin: 15px auto 25px auto;
+	text-align: center;
+}
+
+/* line 1536, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.search-results-wrap .quick-search input {
+	width: 100%;
+	background: #ffffff;
+	border: 1px solid #e3e1dc;
+	box-sizing: border-box;
+	border-radius: 4px;
+	height: 52px;
+	color: #454545;
+	font-family: "webfontregular";
+	padding: 0px 45px 0px 15px;
+	background-image: url(../images/search-icon.svg);
+	background-repeat: no-repeat;
+	background-position: 98% 50%;
+}
+
+/* line 1552, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.search-result-wrapper {
+	margin: 60px auto 0px auto;
+}
+
+/* line 1554, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.search-result-wrapper .search-result-header {
+	position: relative;
+	padding: 0px 80px 0px 0px;
+	margin: 0px 0px 40px 0px;
+}
+
+/* line 1558, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.search-result-wrapper .search-result-header h3 {
+	font-family: "webfontregular";
+	font-size: 24px;
+	color: #000;
+}
+
+/* line 1562, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.search-result-wrapper .search-result-header h3 span {
+	color: slategray;
+}
+
+/* line 1566, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.search-result-wrapper .search-result-header .result-count {
+	position: absolute;
+	right: 0px;
+	top: 6px;
+	color: #708090;
+	font-size: 13px;
+	font-family: "webfontregular";
+}
+
+/* line 1575, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.search-result-wrapper .search-results {
+	padding-left: 100px;
+}
+
+/* line 1577, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.search-result-wrapper .search-results .result-container {
+	background: #ffffff;
+	border: 1px solid rgba(153, 170, 153, 0.3);
+	box-sizing: border-box;
+	border-radius: 6px;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+/* line 1584, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.search-result-wrapper .search-results .result-container h4 {
+	color: #1189d6;
+	font-family: "webfontmedium";
+	font-size: 18px;
+	display: flex;
+}
+
+/* line 1589, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.search-result-wrapper .search-results .result-container h4 main {
+	font-family: "webfontregular";
+	margin: 0px 5px;
+}
+
+/* line 1594, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.search-result-wrapper .search-results .result-container p {
+	color: #708090;
+	font-family: "webfontregular";
+	font-size: 16px;
+}
+
+/* line 1599, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.search-result-wrapper .search-results .result-container span {
+	position: relative;
+	padding: 0px 0px 0px 40px;
+	display: flex;
+	color: #708090;
+	font-family: "webfontregular";
+	font-size: 13px;
+	height: 25px;
+	align-items: center;
+}
+
+/* line 1608, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.search-result-wrapper .search-results .result-container span img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 24px;
+	height: 24px;
+}
+
+/* line 1617, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.search-result-wrapper .search-results .footer-results {
+	color: #708090;
+	font-size: 14px;
+	font-family: "webfontregular";
+}
+
+/* line 1622, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.search-result-wrapper .search-results ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* line 1626, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.search-result-wrapper .search-results li {
+	color: #708090;
+	font-size: 14px;
+	font-family: "webfontregular";
+	list-style: none;
+	width: 20px;
+	height: 20px;
+	float: left;
+	text-align: center;
+	margin: 0px 5px;
+}
+
+/* line 1636, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.search-result-wrapper .search-results li a {
+	text-decoration: none;
+}
+
+/* line 1640, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.search-result-wrapper .search-results .active {
+	background: #1189d6;
+	color: #fff;
+}
+
+/* line 1644, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.search-result-wrapper .search-results li:hover {
+	background: transparent;
+}
+
+/* line 1647, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.search-result-wrapper .search-results .inactive-txt {
+	width: auto;
+}
+
+/* line 1650, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.search-result-wrapper .search-results .inactive-txt a {
+	color: rgba(154, 154, 154, 0.5);
+}
+
+/* line 1654, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.search-result-wrapper .search-results .active-txt {
+	color: #1189d6;
+	width: auto;
+}
+
+/************************************************list page 27/05/21****************************************************/
+/* line 1662, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.tbl-search {
+	width: 340px;
+	position: relative;
+}
+
+/* line 1665, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.tbl-search input {
+	height: 40px;
+	background: #ffffff;
+	border: 1px solid rgba(154, 154, 154, 0.3);
+	box-sizing: border-box;
+	border-radius: 6px;
+	padding-left: 40px;
+	position: relative;
+	background-image: url(../images/search-icon.svg);
+	background-repeat: no-repeat;
+	background-position: 4% 50%;
+	width: 280px;
+}
+
+/* line 1678, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.tbl-search .download_btn {
+	position: absolute;
+	right: 0px;
+	top: 5px;
+}
+
+/* line 1684, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.filter-wrap {
+	margin: 0px;
+}
+
+/* line 1687, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.table-custom {
+	width: 100%;
+	margin: 20px 0px 0px 0px;
+}
+
+/* line 1690, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.table-custom table {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+/* line 1695, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.table-custom table thead th {
+	background-color: rgba(4, 19, 33, 0.8);
+	height: 48px;
+	font-size: 14px;
+	color: #fff;
+	padding: 0px 15px;
+}
+
+/* line 1701, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.table-custom table thead th a {
+	position: relative;
+	left: 5px;
+	top: -2px;
+}
+
+/* line 1707, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.table-custom table thead th:first-child {
+	-webkit-border-top-left-radius: 6px;
+	-moz-border-radius-topleft: 6px;
+	border-top-left-radius: 6px;
+}
+
+/* line 1713, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.table-custom table thead th:last-child {
+	-webkit-border-top-right-radius: 6px;
+	-moz-border-radius-topright: 6px;
+	border-top-right-radius: 6px;
+}
+
+/* line 1720, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.table-custom table tbody .tbl-disable {
+	background: rgba(154, 154, 154, 0.15);
+}
+
+/* line 1722, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.table-custom table tbody .tbl-disable td {
+	background-color: transparent;
+}
+
+/* line 1724, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.table-custom table tbody .tbl-disable td h3 {
+	color: #9a9a9a;
+}
+
+/* line 1727, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.table-custom table tbody .tbl-disable td h4 {
+	color: slategray;
+}
+
+/* line 1732, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.table-custom table tbody td {
+	background-color: #fff;
+	height: 48px;
+	color: #fff;
+	padding: 15px;
+	border-top: 1px solid rgba(154, 154, 154, 0.3);
+	border-bottom: 1px solid rgba(154, 154, 154, 0.3);
+}
+
+/* line 1739, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.table-custom table tbody td h3 {
+	color: #041321;
+	font-size: 16px;
+	font-family: "webfontregular";
+	margin: 0px;
+}
+
+/* line 1745, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.table-custom table tbody td h4 {
+	color: slategray;
+	font-size: 14px;
+	font-family: "webfontregular";
+	margin: 0px;
+}
+
+/* line 1751, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.table-custom table tbody td .blue_color {
+	color: #1189d6;
+}
+
+/* line 1754, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.table-custom table tbody td .green_color {
+	color: #34be9e;
+}
+
+/* line 1757, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.table-custom table tbody td .btn-round {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+/* line 1765, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.table-custom table tbody td .btn-round img {
+	width: 4px;
+	height: 16px;
+}
+
+/* line 1770, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.table-custom table tbody td .quick-action-btn {
+	background: #fdfbf7;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+	border-radius: 4px;
+	position: absolute;
+	top: 30px;
+	right: 25px;
+	display: flex;
+	padding: 10px 12px;
+	z-index: 1;
+}
+
+/* line 1780, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.table-custom table tbody td .quick-action-btn a {
+	padding: 10px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0px 5px;
+}
+
+/* line 1790, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.table-custom table tbody td .quick-action-btn a::after {
+	border-right: 1px solid rgba(154, 154, 154, 0.3);
+	content: "";
+	height: 20px;
+	text-align: center;
+	position: relative;
+	left: 7px;
+}
+
+/* line 1798, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.table-custom table tbody td .quick-action-btn a:last-child::after {
+	content: inherit !important;
+}
+
+/* line 1801, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.table-custom table tbody td .quick-action-btn a:hover {
+	background: rgba(154, 154, 154, 0.2);
+}
+
+/* line 1805, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.table-custom table tbody td .btn-round:hover {
+	background: rgba(154, 154, 154, 0.2);
+}
+
+/* line 1809, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.table-custom table tbody td:first-child {
+	border-left: 1px solid rgba(154, 154, 154, 0.3);
+}
+
+/* line 1812, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.table-custom table tbody td:last-child {
+	border-right: 1px solid rgba(154, 154, 154, 0.3);
+}
+
+/* line 1819, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.pagination-wrap {
+	margin: 20px 0px 0px 0px;
+}
+
+/* line 1821, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.pagination-wrap .count-select {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+
+/* line 1825, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.pagination-wrap .count-select select {
+	width: 80px;
+	height: 40px;
+	background: #ffffff;
+	border: 1px solid rgba(154, 154, 154, 0.5);
+	box-sizing: border-box;
+	border-radius: 4px;
+	margin: 0px 15px 0px 0px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background-image: url(../images/caret-down.png);
+	background-repeat: no-repeat;
+	background-position: 89% 50%;
+}
+
+/* line 1840, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.pagination-wrap .count-select span {
+	margin: 0px 15px 0px 0px;
+}
+
+/* line 1844, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.pagination-wrap .main-pagination {
+	background: #ffffff;
+	border: 1px solid rgba(154, 154, 154, 0.5);
+	box-sizing: border-box;
+	border-radius: 4px;
+	padding: 3px;
+	width: 540px;
+}
+
+/* line 1851, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.pagination-wrap .main-pagination ul {
+	margin: 0px;
+}
+
+/* line 1854, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.pagination-wrap .main-pagination .page-link {
+	border: 0px;
+	color: slategray;
+	font-family: "webfontregular";
+	font-size: 14px;
+}
+
+/* line 1860, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.pagination-wrap .main-pagination .active {
+	background-color: #1189d6;
+	color: #fff;
+}
+
+/* line 1864, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.pagination-wrap .main-pagination .click-active {
+	color: #1189d6;
+}
+
+/* line 1867, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.pagination-wrap .main-pagination .click-inactive {
+	color: rgba(154, 154, 154, 0.5);
+}
+
+/* line 1870, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.pagination-wrap .main-pagination .click-inactive-border {
+	border-left: 1px solid rgba(154, 154, 154, 0.5);
+	border-right: 1px solid rgba(154, 154, 154, 0.5);
+	border-radius: 0px;
+}
+
+/* line 1875, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.pagination-wrap .main-pagination .border-right-pagination {
+	border-right: 2px solid rgba(154, 154, 154, 0.5);
+	border-radius: 0px;
+}
+
+/* line 1879, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.pagination-wrap .main-pagination .jump-page {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* line 1883, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.pagination-wrap .main-pagination .jump-page span {
+	color: slategray;
+	font-family: "webfontregular";
+	font-size: 14px;
+	margin: 0px 10px;
+}
+
+/* line 1889, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.pagination-wrap .main-pagination .jump-page input {
+	background: #fdfbf7;
+	border: 1px solid rgba(154, 154, 154, 0.3);
+	box-sizing: border-box;
+	border-radius: 2px;
+	width: 60px;
+	height: 24px;
+}
+
+/* line 1898, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.pagination-wrap .main-pagination .jump-page:hover {
+	background-color: transparent;
+}
+
+/************************************************************01/06/21*********************************************************************/
+/* line 1906, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.vertical-tab-group {
+	/* Hide the browser's default checkbox */
+	/* Create a custom checkbox */
+	/* On mouse-over, add a grey background color */
+	/* When the checkbox is checked, add a blue background */
+	/* Create the checkmark/indicator (hidden when not checked) */
+	/* Show the checkmark when checked */
+	/* Style the checkmark/indicator */
+}
+
+/* line 1907, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.vertical-tab-group .nav-pills .nav-link {
+	background: #ffffff;
+	border: 1px solid rgba(154, 154, 154, 0.3);
+	box-sizing: border-box;
+	border-radius: 2px;
+	border-collapse: collapse;
+	color: slategray;
+	font-size: 16px;
+	font-family: "webfontregular";
+	margin-top: -1px;
+}
+
+/* line 1919, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.vertical-tab-group .tab-content {
+	width: 415px;
+}
+
+/* line 1922, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.vertical-tab-group .checkbox-wrapper,
+.user_group_selector .checkbox-wrapper {
+	width: 100%;
+	min-height: 40px;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+	display: flex;
+	align-items: center;
+	border: 1px solid rgba(154, 154, 154, 0.3);
+	padding: 0px 0px 0px 15px;
+	margin-top: -1px;
+}
+
+/* line 1931, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.vertical-tab-group .nav-pills .nav-link.active,
+.vertical-tab-group .nav-pills .show > .nav-link {
+	color: #1189d6;
+	font-family: "webfontmedium";
+	background-image: url(../images/caret-right-tab.svg);
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+}
+
+/* line 1938, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.vertical-tab-group .tab-checkbox,
+.user_group_selector .tab-checkbox {
+	display: block;
+	position: relative;
+	padding-left: 25px;
+	margin-bottom: 0px;
+	cursor: pointer;
+	font-size: 14px;
+	color: slategray;
+	font-family: "webfontregular";
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+/* line 1954, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.vertical-tab-group .tab-checkbox input,
+.user_group_selector .tab-checkbox input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+/* line 1963, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.vertical-tab-group .checkmark,
+.user_group_selector .checkmark {
+	position: absolute;
+	top: 2px;
+	left: 0;
+	height: 16px;
+	width: 16px;
+	background-color: #fff;
+	border: 1px solid rgba(4, 19, 33, 0.6);
+}
+
+/* line 1975, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.vertical-tab-group .tab-checkbox:hover input ~ .checkmark,
+.user_group_selector .tab-checkbox:hover input ~ .checkmark {
+	background-color: #ccc;
+}
+
+/* line 1980, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.vertical-tab-group .tab-checkbox input:checked ~ .checkmark,
+.user_group_selector .tab-checkbox input:checked ~ .checkmark {
+	background-color: #2196f3;
+}
+
+/* line 1985, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.vertical-tab-group .checkmark:after,
+.user_group_selector .checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+/* line 1992, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.vertical-tab-group .tab-checkbox input:checked ~ .checkmark:after,
+.user_group_selector input:checked ~ .checkmark:after {
+	display: block;
+}
+
+/* line 1997, F:/Projects/Expandopedia/country-html/scss/custome.scss */
+.vertical-tab-group .tab-checkbox .checkmark:after,
+.user_group_selector .checkmark:after {
+	left: 5px;
+	top: 1px;
+	width: 5px;
+	height: 10px;
+	border: solid white;
+	border-top-width: medium;
+	border-right-width: medium;
+	border-bottom-width: medium;
+	border-left-width: medium;
+	border-width: 0 2px 2px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+/*# sourceMappingURL=custome.css.map */
+
+/* custom */
+.user_group_selector {
+	box-shadow: 1px 1px 3px 0px #d3d3d3c7;
+}
+.user_group_selector_inp .floating__label {
+	margin-bottom: 0px;
+}
+.user_group_selector .checkbox-wrapper {
+	border: none;
+}
+
+.custom_tab_fet {
+	display: none;
+}
+.custom_tab_fet.active {
+	display: block;
+}
+
+.list_only label.tab-checkbox {
+	padding: 0% !important;
+}
+.list_only_data.active {
+	background: transparent !important;
+}
+.role_header_model.modal-header {
+	background: transparent;
+}
+.modal-content .role_header_model.modal-header .modal-title {
+	font-weight: 600;
+}
+.pointer {
+	cursor: pointer;
+}
+.user_group_selector {
+	display: none;
+}
+.user_group_selector.active {
+	display: block;
+}
+
+.dropdown_img {
+	width: 10px;
+	position: absolute;
+	top: 15px;
+	right: 15px;
+}

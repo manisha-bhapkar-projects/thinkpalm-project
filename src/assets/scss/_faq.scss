@@ -1,0 +1,125 @@
+.banner-image.faq-banner {
+  background: url(../images/faq-banner.png) !important ;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+}
+
+.faq-container {
+	scroll-behavior: smooth;
+  background: white;
+  border: 1px solid #ededed;
+  // width: 95.2%;
+  margin: 40px 0;
+  border-radius: 6px;
+  display: grid;
+  grid-template-columns: 324px 1fr;
+  min-height: 50vh;
+  overflow: hidden;
+  .faq-list-wrap {
+    border-right: 1px solid #ededed;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+	height: 55vh;
+    overflow-y: auto;
+    h6 {
+      color: #708090;
+      font-family: $helvetica-medium;
+      font-size: 16px;
+      padding: 8px 25px 5px 25px;
+      margin-bottom: 0;
+      padding-left: 25px !important;
+      cursor: pointer;
+      height: 42px;
+      line-height: 30px;
+
+      &:hover {
+        opacity: 0.7;
+        text-decoration: none;
+      }
+    }
+    .activeTag {
+      background: #40659e;
+      color: white;
+      width: 100%;
+      margin-left: 0;
+      padding-left: 50px;
+    }
+
+    span {
+      font-family: $helvetica-medium;
+      color: #708090;
+      cursor: pointer;
+      padding: 14px 32px;
+      align-self: flex-start;
+      font-size: 15px;
+
+      &:hover {
+        opacity: 0.7;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .faq-writing {
+    padding: 32px 40px;
+    height: 55vh;
+    overflow-y: auto;
+    h3 {
+      font-family: $helvetica-medium;
+      color: #0f1b2b;
+      margin-bottom: 10px;
+      font-size: 22px;
+    }
+
+    p {
+      font-family: $helvetica-regular;
+      font-size: 16px;
+      margin-bottom: 0;
+
+      + p {
+        margin-top: 5px;
+      }
+
+    }
+	.parent {
+		h3 {
+		  margin-top: 40px;
+		}
+	}
+  }
+}
+.font-26 {
+  font-size: 26px;
+  color: #0F1B2B;
+  font-family: $helvetica-medium;
+  margin: 0px 0px 24px 0px;
+}
+.faq-writing {
+  ul {
+    li {
+      font-size: 15px;
+      font-family: $helvetica-regular;
+      color: #0F1B2B;
+      margin: 10px 0px 10px 0px;
+      span {
+        text-decoration: underline;
+        color: #40659E;
+        cursor: pointer;
+      }
+    }
+  }
+}
+.product_update {
+  .header-banner {
+    height: 240px;
+    .banner-image {
+      background: url(../images/productUpdate.jpg) !important;
+    }
+  }
+}
+.product_update_container {
+  .faq-list-wrap, .faq-writing {
+    height: 65vh;
+  }
+}
